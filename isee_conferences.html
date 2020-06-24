@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -20,8 +20,9 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 
 
@@ -54,7 +55,9 @@ h6 {
 </style>
 
 
+</head>
 
+<body>
 
 <style type = "text/css">
 .main-container {
@@ -68,6 +71,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -77,9 +81,6 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
-}
-summary {
-  display: list-item;
 }
 </style>
 
@@ -95,6 +96,7 @@ body {
   padding-top: 50px;
   margin-top: -50px;
 }
+
 .section h2 {
   padding-top: 50px;
   margin-top: -50px;
@@ -114,43 +116,6 @@ body {
 .section h6 {
   padding-top: 50px;
   margin-top: -50px;
-}
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -172,74 +137,19 @@ $(document).ready(function () {
 });
 </script>
 
+
+<div class="container-fluid main-container">
+
 <!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-  background-color: transparent;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
 
 <!-- code folding -->
 
 
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
 
 
 
@@ -323,14 +233,14 @@ $(document).ready(function () {
 </div>
 
 
-<p>Join us in 2020 at ISEE’s next conference in <a href="https://isee2020dc.org/" target="_blank">Washington, DC</a>!</p>
+<p>Join us in 2020 at ISEE’s first-ever <a href="https://isee2020virtual.org/" target="_blank">virtual conference</a>!</p>
 <p align="center">
-<img src = "Images/isee2020.png" style = "width:100%">
+<img src = "Images/iseevirtual.png" style = "width:50%">
 </p>
-<p><br></p>
-<p>The 32nd Annual Conference of the International Society for Environmental Epidemiology (ISEE), hosted by the <a href="https://www.gwu.edu/" target="_blank">George Washington University (GW)</a>, is expected to attract more than 1,200 participants from around the globe and aims to support ISEE’s intent to positively impact quality research, training and policy worldwide. The program chairs selected the theme “Advancing Environmental Health in a Changing World” to heighten the importance of translating human environmental health science into action amid global changes in climate, geopolitics, and demographics.</p>
-<p>As the capital city of the United States, the Washington, DC, area is home to a wide range of environmental epidemiologists working in a rich array of settings - academic, governmental, international multilateral organizations, consulting firms and think tanks, nonprofits, and private sector institutions. Washington, DC, is uniquely situated as a backdrop for this purpose and brings a rich diversity of scientists and policymakers who are working in environmental health at the local, state, federal and international level. The city is known as one of the most walkable and leads the country in several environmental and sustainability initiatives with an emphasis on smart cities, climate resiliency, and urban agriculture. It is an important multiethnic and multicultural environment, where people from all nationalities converge and interact. From iconic monuments to vibrant neighborhoods filled with character and charm, Washington, DC, offers unique cultural diversity, pairing its international influence with a distinct and local identity.</p>
-<p></br></p>
+<!-- <br> -->
+<!-- The 32nd Annual Conference of the International Society for Environmental Epidemiology (ISEE), hosted by the [George Washington University (GW)](https://www.gwu.edu/){target="_blank"}, is expected to attract more than 1,200 participants from around the globe and aims to support ISEE’s intent to positively impact quality research, training and policy worldwide. The program chairs selected the theme “Advancing Environmental Health in a Changing World” to heighten the importance of translating human environmental health science into action amid global changes in climate, geopolitics, and demographics. -->
+<!-- As the capital city of the United States, the Washington, DC, area is home to a wide range of environmental epidemiologists working in a rich array of settings - academic, governmental, international multilateral organizations, consulting firms and think tanks, nonprofits, and private sector institutions. Washington, DC, is uniquely situated as a backdrop for this purpose and brings a rich diversity of scientists and policymakers who are working in environmental health at the local, state, federal and international level. The city is known as one of the most walkable and leads the country in several environmental and sustainability initiatives with an emphasis on smart cities, climate resiliency, and urban agriculture. It is an important multiethnic and multicultural environment, where people from all nationalities converge and interact. From iconic monuments to vibrant neighborhoods filled with character and charm, Washington, DC, offers unique cultural diversity, pairing its international influence with a distinct and local identity. -->
+<!-- </br> -->
 <hr />
 <p>Information regarding other future ISEE Meetings can be found <a href="https://www.iseepi.org/Public/Annual_Meeting/Future_Meetings/Public/Annual_Meetings/Future_Meetings.aspx?hkey=6ac6ca51-7884-42c5-a6a0-c3811b8602ff" target="_blank">here</a>.</p>
 <p></br></p>
@@ -352,23 +262,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

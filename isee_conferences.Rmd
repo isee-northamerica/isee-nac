@@ -3,19 +3,19 @@ title: "ISEE CONFERENCES"
 output: html_document
 ---
 
-  Join us in 2020 at ISEE's next conference in [Washington, DC](https://isee2020dc.org/){target="_blank"}! 
+  Join us in 2020 at ISEE's first-ever [virtual conference](https://isee2020virtual.org/){target="_blank"}! 
 
 <p align = "center">
-<img src = "Images/isee2020.png" style = "width:100%"> 
+<img src = "Images/iseevirtual.png" style = "width:50%"> 
 </p>
 
-<br>
+<!-- <br> -->
 
-The 32nd Annual Conference of the International Society for Environmental Epidemiology (ISEE), hosted by the [George Washington University (GW)](https://www.gwu.edu/){target="_blank"}, is expected to attract more than 1,200 participants from around the globe and aims to support ISEE’s intent to positively impact quality research, training and policy worldwide. The program chairs selected the theme “Advancing Environmental Health in a Changing World” to heighten the importance of translating human environmental health science into action amid global changes in climate, geopolitics, and demographics.
+<!-- The 32nd Annual Conference of the International Society for Environmental Epidemiology (ISEE), hosted by the [George Washington University (GW)](https://www.gwu.edu/){target="_blank"}, is expected to attract more than 1,200 participants from around the globe and aims to support ISEE’s intent to positively impact quality research, training and policy worldwide. The program chairs selected the theme “Advancing Environmental Health in a Changing World” to heighten the importance of translating human environmental health science into action amid global changes in climate, geopolitics, and demographics. -->
 
-As the capital city of the United States, the Washington, DC, area is home to a wide range of environmental epidemiologists working in a rich array of settings - academic, governmental, international multilateral organizations, consulting firms and think tanks, nonprofits, and private sector institutions. Washington, DC, is uniquely situated as a backdrop for this purpose and brings a rich diversity of scientists and policymakers who are working in environmental health at the local, state, federal and international level. The city is known as one of the most walkable and leads the country in several environmental and sustainability initiatives with an emphasis on smart cities, climate resiliency, and urban agriculture. It is an important multiethnic and multicultural environment, where people from all nationalities converge and interact. From iconic monuments to vibrant neighborhoods filled with character and charm, Washington, DC, offers unique cultural diversity, pairing its international influence with a distinct and local identity.
+<!-- As the capital city of the United States, the Washington, DC, area is home to a wide range of environmental epidemiologists working in a rich array of settings - academic, governmental, international multilateral organizations, consulting firms and think tanks, nonprofits, and private sector institutions. Washington, DC, is uniquely situated as a backdrop for this purpose and brings a rich diversity of scientists and policymakers who are working in environmental health at the local, state, federal and international level. The city is known as one of the most walkable and leads the country in several environmental and sustainability initiatives with an emphasis on smart cities, climate resiliency, and urban agriculture. It is an important multiethnic and multicultural environment, where people from all nationalities converge and interact. From iconic monuments to vibrant neighborhoods filled with character and charm, Washington, DC, offers unique cultural diversity, pairing its international influence with a distinct and local identity. -->
 
-</br>
+<!-- </br> -->
 
 ***
 
