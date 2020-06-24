@@ -1,0 +1,16 @@
+---
+title: "JOURNALS"
+output: html_document
+---
+
+<br>
+
+ISEE is proud to have productive partnerships with three leading environment health journals: [Epidemiology](https://journals.lww.com/epidem/pages/default.aspx){target="_blank"}, [Environmental Epidemiology](https://journals.lww.com/environepidem/pages/default.aspx){target="_blank"}, and [Environmental Health Perspectives (EHP)](https://ehp.niehs.nih.gov/){target="_blank"}. 
+
+<br>
+
+Epidemiology and Environmental Epidemiology are the official journals of the ISEE. ISEE members enjoy special benefits from these journals including online access, discounted article processing charges, and increased dissemination of published papers. ISEE regularly invites and sponsors commentaries that are published in these two journals. 
+
+<br>
+
+ISEE and EHP enjoy a mutually beneficial partnership including joint planning of conference, early career, capacity building, and educational activities. EHP typically also publishes the abstracts from the ISEE annual meeting.

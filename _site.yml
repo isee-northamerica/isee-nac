@@ -1,0 +1,40 @@
+name: "ABOUT US"
+output_dir: "."
+navbar:
+  title: "HOME"
+  left:
+    - text: "MEMBERS"
+      href: members.html
+      menu:
+      - text: "EXECUTIVE COUNCIL"
+        href: executive_council.html
+      - text: "ASSOCIATE MEMBERS"
+        href: associate_members.html
+      - text: "POLICY COMMITTEE"
+        href: policy_committee.html
+    - text: "POLICY"
+      href: policy.html
+    - text: "MENTORING"
+      href: mentoring.html
+    - text: "WEBINARS"
+      href: webinars.html
+    - text: "ISEE CONFERENCES"
+      href: isee_conferences.html
+    - text: "JOURNALS"
+      href: journals.html
+    - text: "NAC HIGHLIGHTS"
+      href: highlights.html
+    - text: "CONTACT US"
+      href: about.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: mailto:<isee.northamerica@gmail.com>
+    - icon: fa-github fa-lg
+      href: https://github.com/isee-nac
+   
+output:
+  html_document:
+    self_contained: no
+    theme: yeti
+    highlight: tango
+      

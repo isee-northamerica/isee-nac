@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>EXECUTIVE COUNCIL</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h2 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h3 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h4 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h5 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h6 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">HOME</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    MEMBERS
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="executive_council.html">EXECUTIVE COUNCIL</a>
+    </li>
+    <li>
+      <a href="associate_members.html">ASSOCIATE MEMBERS</a>
+    </li>
+    <li>
+      <a href="policy_committee.html">POLICY COMMITTEE</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="policy.html">POLICY</a>
+</li>
+<li>
+  <a href="mentoring.html">MENTORING</a>
+</li>
+<li>
+  <a href="webinars.html">WEBINARS</a>
+</li>
+<li>
+  <a href="isee_conferences.html">ISEE CONFERENCES</a>
+</li>
+<li>
+  <a href="journals.html">JOURNALS</a>
+</li>
+<li>
+  <a href="highlights.html">NAC HIGHLIGHTS</a>
+</li>
+<li>
+  <a href="about.html">CONTACT US</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="mailto:&lt;isee.northamerica@gmail.com&gt;">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/isee-nac">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">EXECUTIVE COUNCIL</h1>
+
+</div>
+
+
+<p>The executive council is comprised of 7 members. At least one member must represent Canada. North American Chapter members can be elected every-other-year to the Executive Council via electronic elections.</p>
+<p><br></p>
+<p>The following people serve on the seven-member Executive Council of the ISEE North American Chapter:</p>
+<p><br></p>
+<div id="joan-casey-co-chair" class="section level1">
+<h1>Joan Casey, Co-Chair</h1>
+<p align="center">
+<img src = "Images/Joan.jpg" style = "width:20%">
+</p>
+<p><a href="https://www.mailman.columbia.edu/people/our-faculty/jac2250" target="_blank">Joan Casey</a>, PhD, received her doctoral degree from the Department of Environmental Health Sciences at Johns Hopkins Bloomberg School of Public Health in 2014. Dr. Casey is an environmental epidemiologist who focuses on environmental health, environmental justice, and sustainability. Her research uses electronic health records and spatial statistics to study the relationship between emerging environmental exposures and population health. She also considers vulnerable populations and the implications of health disparities, particularly in an era of climate change. Dr. Casey investigates a range of exposures including unconventional natural gas and oil development, coal-fired power plants, and concentrated animal feeding operations. Dr. Casey also holds a BS in Biological and Environmental Engineering from Cornell University and an MA in Applied Physiology from Teachers College at Columbia University. <br></p>
+<hr />
+</div>
+<div id="marianthi-anna-kioumourtzoglou-co-chair" class="section level1">
+<h1>Marianthi-Anna Kioumourtzoglou, Co-Chair</h1>
+<p align="center">
+<img src = "Images/Marianthi.jpg" style = "width:20%">
+</p>
+<p><a href="https://www.publichealth.columbia.edu/people/our-faculty/mk3961" target="_blank">Marianthi-Anna Kioumourtzoglou</a>, ScD, MSPH, is an environmental engineer and epidemiologist. She holds a Master of Science in Public Health (MSPH) from the Environmental Sciences and Engineering Department at the University of North Carolina at Chapel Hill and a Doctor of Science (ScD) in Environmental Health from the Harvard TH Chan School of Public Health, where she also conducted her post-doctoral fellowship. She is currently an Assistant Professor at the Department of Environmental Health Sciences at Columbia University’s Mailman School of Public Health. Her research focuses on applied statistical issues related to environmental epidemiology, including quantifying and correcting for exposure measurement error, exposure prediction uncertainty propagation, and assessment of high-dimensional and complex exposures in health analyses. Her studies mainly (albeit not exclusively) focus on air pollution exposures and, additionally, on identifying vulnerable sub-populations and characterizing how risks may vary across neighborhood-level and other urban characteristics, as well as in a changing climate.</p>
+<p><br></p>
+<hr />
+<p><br></p>
+</div>
+<div id="patrick-kinney" class="section level1">
+<h1>Patrick Kinney</h1>
+<p align="center">
+<img src = "Images/Patrick.jpg" style = "width:20%">
+</p>
+<p><a href="https://www.bu.edu/sph/profile/patrick-kinney/" target="_blank">Patrick Kinney</a>, PhD, joined the School of Public Health faculty in January 2017 as the inaugural Beverly Brown Professor of Urban Health. He was trained as an air pollution epidemiologist at Harvard School of Public Health, and came to BU after two decades at the Columbia University Mailman School of Public Health. In his time at Columbia, he showed how warming temperatures make air pollution like urban smog worse, and more harmful to populations. He led the development of an integrated modeling system to predict the air pollution health effects of climate change into the future. Working at the intersection of climate change, health, and policy, Kinney has conducted research from the South Bronx to China to rapidly growing cities throughout Africa. At Columbia, he also created an interdisciplinary research and teaching program examining the potential impacts of climate change on health. At BU, Kinney is developing a new program that focuses on assessing the health benefits of urban climate action plans, via strategies to promote active transport, green infrastructure, and clean vehicles. <br></p>
+<hr />
+<p><br></p>
+</div>
+<div id="francine-laden" class="section level1">
+<h1>Francine Laden</h1>
+<p align="center">
+<img src = "Images/Francine.png" style = "width:20%">
+</p>
+<p><a href="https://www.hsph.harvard.edu/francine-laden/" target="_blank">Francine Laden</a>, ScD, MS, is Professor of Environmental Epidemiology at the Harvard T.H. Chan School of Public Health, and an Associate Professor of Medicine at the Harvard Medical School and the Brigham &amp; Women’s Hospital. Dr. Laden received her ScD in Epidemiology and MS in Environmental Health from the Harvard School of Public Health. Her research interests focus on the environmental epidemiology of chronic diseases, including cancer, respiratory and cardiovascular disease. Her research has or is concentrated on the following categories of exposures: air pollution (from ambient and occupational sources), persistent organic pollutants (POPs; organochlorines), secondhand smoke, and the contextual environment (e.g. built environment and green spaces). She is specifically interested in the geographic distribution of disease risk, incorporating geographic information system technology into large cohort studies to explore risk factors such as the built environment and indicators of socioeconomic status, as well as air pollution. She has published key papers on the association of ambient particulate matter and all cause and cardiovascular mortality in the landmark Harvard Six Cities Study and the Nurses’ Health Study and on the association of diesel exhaust exposures and lung cancer mortality in the trucking industry. <br></p>
+<hr />
+<p><br></p>
+</div>
+<div id="joel-schwartz" class="section level1">
+<h1>Joel Schwartz</h1>
+<p align="center">
+<img src = "Images/Joel.jpg" style = "width:20%">
+</p>
+<p><a href="https://www.hsph.harvard.edu/joel-schwartz/" target="_blank">Joel Schwartz</a>, PhD, is a Professor of Epidemiology at the Harvard T.H. Chan School of Public Health. Joel’s research is divided in three main areas: First, he is interested in epidemiology looking at the health consequences of exposure to pollutants. To date this has had two focuses: health effects of lead and health effects of air pollutants. He has recently begun work looking at water contamination. Second, Joel is also interested in methodological questions regarding the modeling of continuous covariates in epidemiologic studies, both for better covariate control and to more accurately assess the relationship between exposure and response. This has involved regression spline models, nonparametric smoothing, and generalized additive models. Joel has been using mixed and hierarchical models to combine this information across studies. Case-crossover techniques have also been introduced for these purposes. He has demonstrated the effectiveness of these tools in applications in both lead and air pollution studies. He has also been interested in issues involving time series studies, where the outcomes measures are not independent. This has involved generalized least squares and generalized estimating equation approaches. Third, Joel’s research has focused on the effects of antioxidants on respiratory health. To date, this has focused on chronic effects (e.g. relationship between dietary intake and level of pulmonary function or symptoms), but future research will examine their potential to modify acute responses as well.</p>
+<p><br></p>
+<hr />
+<p><br></p>
+</div>
+<div id="paul-villeneuve" class="section level1">
+<h1>Paul Villeneuve</h1>
+<p align="center">
+<img src = "Images/Paul.jpg" style = "width:20%">
+</p>
+<p><a href="https://carleton.ca/eoel/" target="_blank">Paul Villeneuve</a>, PhD, is currently a Professor in the School of Mathematics and Statistics, while holding appointments in the Department of Health Sciences and in the Departments of Health Sciences and Neurosciences at Carleton University. He is also an Affiliate Scientist at the Ontario Occupational Cancer Research Centre in Toronto, and an Associate Editor for the journal Environmental and Occupational Medicine. Paul continues to serve as an on the Advisory Committee for the Canadian Health Adaptations, Innovations, and Mobilization (CHAIM) Centre at Carleton. Paul’s research focuses on investigating the associations between environmental and occupational exposures and a number of adverse health outcomes. Specific projects include evaluating the impacts of long-term exposure to air pollution and the risk of chronic diseases such as cancer, diabetes and dementia. Paul also studies the health benefits of urban greenness which include how these features of the built environment help promote physical activity, and reduce the risk of mortality, and adverse birth outcomes. Paul’s research activities have also investigated the impacts of urban greenness in reducing harmful exposures of air pollution, noise, and urban heat island. He is currently leading a study that is characterizing the risk of lung cancer in a cohort of Newfoundland miners who were occupationally exposed to radon. <br></p>
+<hr />
+<p><br></p>
+</div>
+<div id="tracey-woodruff" class="section level1">
+<h1>Tracey Woodruff</h1>
+<p align="center">
+<img src = "Images/Tracey.jpg" style = "width:20%">
+</p>
+<p><a href="https://prhe.ucsf.edu/faculty-staff" target="_blank">Tracey Woodruff</a>, PhD, MPH, is the Director of and Alison S. Carlson Endowed Professor for PRHE and is a Professor in the UCSF Department of Obstetrics, Gynecology and Reproductive Sciences and the Philip R. Lee Institute for Health Policy Studies. She is a recognized expert on environmental pollution exposures and impacts on health, with a focus on pregnancy, infancy and childhood, and her innovations in translating and communicating scientific findings for clinical and policy audiences. She has authored numerous scientific publications and book chapters, and has been quoted widely in the press, including USA Today, the San Francisco Chronicle and The New York Times. Before joining UCSF, Dr. Woodruff was a senior scientist and policy advisor for the U.S. EPA’s Office of Policy. She is an Associate Editor of Environmental Health Perspectives. She was appointed by the governor of California in 2012 to the Science Advisory Board of the Developmental and Reproductive Toxicant (DART) Identification Committee. <br></p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+---
+title: "WEBINARS"
+output: html_document
+---
+
+We offer quarterly webinars on topics ranging from policy to professional development.
+
+The [ISEE Global Education Channel](https://www.youtube.com/channel/UCzW7ZAgwM-h0wWFEESbLlWA){target="_blank"} contains many presentations and training videos.
+
+<br>
+
+Check out some of the webinars below!
+
+</br>
+
+**Joel Kaufman - A Conversation with EHP's Editor-in-Chief**
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CxTrGCIzMLU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</br>
+
+**Andrea Baccerelli - Time Management**
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yDnxpaqO9s4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</br>
+
+**Emily Copeland - Social Media for Scientists**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fl0wVuxARf8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</br>
+
+**Eve Gartner - Public Comment 101**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VhnUZrWzM9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</br>
+
+**Any Kostant- Media Training 101**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xpExhVUa00U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</br>
+
+
+</br>
+
+**Upcoming Webinars:**
+
+* September 24 at 12PM EST: *Francine Laden and George Thurston - An overview of NIH Study Section*
+* October 13 at 12PM EST: *Rachel Morello-Frosch - Environmental Justice*
+
+</br>
+
+If you have ideas for future webinars, [e-mail](isee.northamerica@gmail.com) or tweet us [\@ISEE_NAC](https://twitter.com/isee_nac?lang=en){target="_blank"} us.
+
+</br>
