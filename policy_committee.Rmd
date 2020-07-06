@@ -47,7 +47,8 @@ output:
 <img src = "Images/Abiodun.jpeg" style = "width:20%"> 
 </p>
 
-[Abiodun Oluyomi](https://www.bcm.edu/people/view/abiodun-oluyomi-ph-d-m-s/9e7e0972-f9b7-11e6-8210-005056b104be){target="_blank"}, PhD, MS, is an Assistant Professor at the Baylor College of Medicine. 
+[Abiodun Oluyomi](https://www.bcm.edu/people/view/abiodun-oluyomi-ph-d-m-s/9e7e0972-f9b7-11e6-8210-005056b104be){target="_blank"}, PhD, MS, is an Assistant Professor of Medicine in the Section of Epidemiology and Population Sciences at the Baylor College of Medicine.
+
 <br>
 
 ***
