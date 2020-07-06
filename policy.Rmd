@@ -30,29 +30,34 @@ img {
 }
 
 img:hover {
-    -webkit-transform:scale(2); /* or some other value */
-    transform:scale(2);
+    -webkit-transform:scale(1.5); /* or some other value */
+    transform:scale(1.5);
 }
 </style>
 </head>
 
 ### Infographics
 
+<small>
+_We are grateful to Sydney Wholchok, MPH, for preparing the infographics!_
+</small>
+
+<br>
 
 <div class="row">
   <div class="column">
 
-<img src="Images/Why To Participate in Rulemaking.pdf" style="width:100%">
+<img src="Images/Why To Participate in Rulemaking.png" style="width:90%">
   </div>
 
   <div class="column">
 
-<img src="Images/The Rulemaking Process.pdf" style="width:100%">
+<img src="Images/The Rulemaking Process.png" style="width:90%">
    </div>
 
   <div class="column">
 
-<img src="Images/how to comment on the federal register.pdf" style="width:100%">
+<img src="Images/how to comment on the federal register.png" style="width:90%">
 
   </div>
 </div>
@@ -60,6 +65,3 @@ img:hover {
 <br>
 <br>
 
-<small>
-_We are grateful to Sydney Wholchok, MPH, for preparing the infographics!_
-</small>
