@@ -42,17 +42,17 @@ img:hover {
 <div class="row">
   <div class="column">
 
-<img src="Images/ISEE_Infographics/Why To Participate in Rulemaking.pdf" style="width:100%">
+<img src="Images/Why To Participate in Rulemaking.pdf" style="width:100%">
   </div>
 
   <div class="column">
 
-<img src="Images/ISEE_Infographics/The Rulemaking Process.pdf" style="width:100%">
+<img src="Images/The Rulemaking Process.pdf" style="width:100%">
    </div>
 
   <div class="column">
 
-<img src="Images/ISEE_Infographics/how to comment on the federal register.pdf" style="width:100%">
+<img src="Images/how to comment on the federal register.pdf" style="width:100%">
 
   </div>
 </div>
