@@ -5,12 +5,60 @@ output:
     toc: true
     toc_float: true
 ---
-<p align = "center">
-<img src = "Images/construction2.png" style = "width:80%">
-</p>
-<br>
 
-</br>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img {
+    transition:transform 0.25s ease;
+}
+
+img:hover {
+    -webkit-transform:scale(2); /* or some other value */
+    transform:scale(2);
+}
+</style>
+</head>
+
+### Infographics
 
 
-</br>
+<div class="row">
+  <div class="column">
+
+<img src="Images/ISEE_Infographics/Why To Participate in Rulemaking.pdf" style="width:100%">
+  </div>
+
+  <div class="column">
+
+<img src="Images/ISEE_Infographics/The Rulemaking Process.pdf" style="width:100%">
+   </div>
+
+  <div class="column">
+
+<img src="Images/ISEE_Infographics/how to comment on the federal register.pdf" style="width:100%">
+
+  </div>
+</div>
+
+<br><br>
+
+<small>
+_We are grateful to Sydney Wholchok, MPH, for preparing the infographics!_
+</small>
