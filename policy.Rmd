@@ -25,6 +25,8 @@ output:
   display: table;
 }
 
+
+
 img {
     transition:transform 0.25s ease;
 }
@@ -39,7 +41,7 @@ img:hover {
 ### Infographics
 
 <small>
-_We are grateful to Sydney Wholchok, MPH, for preparing the infographics!_
+_We are grateful to Sydney Wolchok, MPH, for preparing the infographics!_
 </small>
 
 <br>
