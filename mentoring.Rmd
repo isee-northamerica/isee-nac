@@ -5,12 +5,9 @@ output:
     toc: true
     toc_float: true
 ---
-<p align = "center">
-<img src = "Images/construction2.png" style = "width:80%">
-</p>
-<br>
-
-</br>
 
 
-</br>
+# Mentoring Program
+
+The ISEE NAC plans to launch a peer mentoring program in 2021! Please help us tailor it to your needs by completing [this survey](https://forms.gle/uySmBG4iUcPEEqsM7){target="_blank"}.
+

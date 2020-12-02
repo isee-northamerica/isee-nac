@@ -9,17 +9,24 @@ The [ISEE Global Education Channel](https://www.youtube.com/channel/UCzW7ZAgwM-h
 
 </br>
 
-**Upcoming Webinars:**
+<!-- **Upcoming Webinars:** -->
 
-* October 13 at 12PM EST: *Rachel Morello-Frosch - The Haves, have-nots, and the health of everyone: What's the connection and why it matters for sustainability and environmental justice*
+<!-- * October 13 at 12PM EST: *Rachel Morello-Frosch - The Haves, have-nots, and the health of everyone: What's the connection and why it matters for sustainability and environmental justice* -->
 
-* October 29 at 12 PM EST: *Carol Shreffler, Abee Boyles, and Joan Casey - NIEHS K99/R00 Webinar*
+<!-- * October 29 at 12 PM EST: *Carol Shreffler, Abee Boyles, and Joan Casey - NIEHS K99/R00 Webinar* -->
 
 <br>
 
 Check out some of our past webinars below!
 
 </br>
+
+**Carol Shreffler, Abee Boyles, and Joan Casey - NIEHS K99/R00 Webinar**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vFRXD6eK_9o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+**Rachel Morello-Frosch - The Haves, have-nots, and the health of everyone: What's the connection and why it matters for sustainability and environmental justice**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kiuETY-ap2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Francine Laden and George Thurston - All Things NIH Study Section**
 
