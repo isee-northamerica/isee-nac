@@ -39,30 +39,31 @@ The following people serve on the seven-member Executive Council of the ISEE Nor
 
 <br>
 
-# Patrick Kinney 
+# Carrie Breton 
 
 <p align = "center">
-<img src = "Images/Patrick.jpg" style = "width:20%"> 
+<img src = "Images/CarrieBreton.jpg" style = "width:20%"> 
 </p>
 
-[Patrick Kinney](https://www.bu.edu/sph/profile/patrick-kinney/){target="_blank"}, PhD, joined the School of Public Health faculty in January 2017 as the inaugural Beverly Brown Professor of Urban Health. He was trained as an air pollution epidemiologist at Harvard School of Public Health, and came to BU after two decades at the Columbia University Mailman School of Public Health. In his time at Columbia, he showed how warming temperatures make air pollution like urban smog worse, and more harmful to populations. He led the development of an integrated modeling system to predict the air pollution health effects of climate change into the future. Working at the intersection of climate change, health, and policy, Kinney has conducted research from the South Bronx to China to rapidly growing cities throughout Africa. At Columbia, he also created an interdisciplinary research and teaching program examining the potential impacts of climate change on health. At BU, Kinney is developing a new program that focuses on assessing the health benefits of urban climate action plans, via strategies to promote active transport, green infrastructure, and clean vehicles.
+[Carrie Breton](https://preventivemedicine.usc.edu/Carrie-Breton/){target="_blank"}, ScD, is Associate Professor of Preventive Medicine at the Keck School of Medicine of USC. The overarching goals of her research program are to understand how environmental exposures early in life contribute to the increased risk of disease later in life, as well as the role genetic and epigenetic mechanisms play in driving observed associations. Despite evidence from animal models supporting a developmental origins of adult disease hypothesis (DOHad), which proposes that adverse events during early life program an increased risk for numerous adult diseases, human studies of in utero or childhood environmental exposures have not been a primary focus until recently. Her work in evaluating prenatal air pollution and prenatal tobacco smoke exposures provides evidence that early life exposures are important risk factors for cardio-respiratory health in children and young adults.
+
 <br>
 
 
 ***
 
-<br>
+<!-- <br> -->
 
-# Francine Laden
+<!-- # Francine Laden -->
 
-<p align = "center">
-<img src = "Images/Francine.png" style = "width:20%"> 
-</p>
+<!-- <p align = "center"> -->
+<!-- <img src = "Images/Francine.png" style = "width:20%">  -->
+<!-- </p> -->
 
-[Francine Laden](https://www.hsph.harvard.edu/francine-laden/){target="_blank"}, ScD, MS, is Professor of Environmental Epidemiology at the Harvard T.H. Chan School of Public Health, and an Associate Professor of Medicine at the Harvard Medical School and the Brigham & Women’s Hospital. Dr. Laden received her ScD in Epidemiology and MS in Environmental Health from the Harvard School of Public Health. Her research interests focus on the environmental epidemiology of chronic diseases, including cancer, respiratory and cardiovascular disease. Her research has or is concentrated on the following categories of exposures: air pollution (from ambient and occupational sources), persistent organic pollutants (POPs; organochlorines), secondhand smoke, and the contextual environment (e.g. built environment and green spaces). She is specifically interested in the geographic distribution of disease risk, incorporating geographic information system technology into large cohort studies to explore risk factors such as the built environment and indicators of socioeconomic status, as well as air pollution. She has published key papers on the association of ambient particulate matter and all cause and cardiovascular mortality in the landmark Harvard Six Cities Study and the Nurses’ Health Study and on the association of diesel exhaust exposures and lung cancer mortality in the trucking industry.
-<br>
+<!-- [Francine Laden](https://www.hsph.harvard.edu/francine-laden/){target="_blank"}, ScD, MS, is Professor of Environmental Epidemiology at the Harvard T.H. Chan School of Public Health, and an Associate Professor of Medicine at the Harvard Medical School and the Brigham & Women’s Hospital. Dr. Laden received her ScD in Epidemiology and MS in Environmental Health from the Harvard School of Public Health. Her research interests focus on the environmental epidemiology of chronic diseases, including cancer, respiratory and cardiovascular disease. Her research has or is concentrated on the following categories of exposures: air pollution (from ambient and occupational sources), persistent organic pollutants (POPs; organochlorines), secondhand smoke, and the contextual environment (e.g. built environment and green spaces). She is specifically interested in the geographic distribution of disease risk, incorporating geographic information system technology into large cohort studies to explore risk factors such as the built environment and indicators of socioeconomic status, as well as air pollution. She has published key papers on the association of ambient particulate matter and all cause and cardiovascular mortality in the landmark Harvard Six Cities Study and the Nurses’ Health Study and on the association of diesel exhaust exposures and lung cancer mortality in the trucking industry. -->
+<!-- <br> -->
 
-***
+<!-- *** -->
 
 <br>
 
@@ -93,6 +94,19 @@ The following people serve on the seven-member Executive Council of the ISEE Nor
 
 <br>
 
+# Kate Weinberger
+
+<p align = "center">
+<img src = "Images/KateWeinberger.jpg" style = "width:20%"> 
+</p>
+
+[Kate Weinberger](https://www.spph.ubc.ca/person/kate-weinberger/){target="_blank"}, PhD, is an Assistant Professor in the School of Population and Public Health at the University of British Columbia. Prior to joining the faculty at UBC in 2019, Dr. Weinberger received a PhD in environmental health sciences from Columbia University and completed her postdoctoral training in environmental epidemiology at the Brown University School of Public Health. Her research focuses on the links between climate change and human health, with current projects examining health outcomes associated with extreme weather events (e.g., heat waves, tropical cyclones) and aeroallergens. Dr. Weinberger also conducts research on the effectiveness of heat adaptation strategies. 
+<br>
+
+***
+
+<br>
+
 # Tracey Woodruff
 
 <p align = "center">
@@ -100,4 +114,31 @@ The following people serve on the seven-member Executive Council of the ISEE Nor
 </p>
 
 [Tracey Woodruff](https://prhe.ucsf.edu/faculty-staff){target="_blank"}, is the Director of and Alison S. Carlson Endowed Professor for PRHE and is a Professor in the UCSF Department of Obstetrics, Gynecology and Reproductive Sciences and the Philip R. Lee Institute for Health Policy Studies. She is also the Director of a newly awarded NIEHS Environmental Health Core Center grant, the Environmental Research and Translation for Health (EaRTH) Center at UCSF. She is a recognized expert on environmental pollution exposures and impacts on health, with a focus on pregnancy, infancy and childhood, and her innovations in translating and communicating scientific findings for clinical and policy audiences. She has authored numerous scientific publications and book chapters, and has been quoted widely in the press, including USA Today, the San Francisco Chronicle and The New York Times. Before joining UCSF, Dr. Woodruff was a senior scientist and policy advisor for the U.S. EPA’s Office of Policy. She was appointed by the governor of California in 2012 to the Science Advisory Board of the Developmental and Reproductive Toxicant (DART) Identification Committee.
+
 <br>
+
+***
+
+<br>
+
+# Former Councilors
+<br>
+
+### [Patrick Kinney](https://www.bu.edu/sph/profile/patrick-kinney/){target="_blank"}, 2019 -- 2020
+### [Francine Laden](https://www.hsph.harvard.edu/francine-laden/){target="_blank"}, 2019 -- 2020
+
+<!-- ```{r setup, include=FALSE} -->
+<!-- htmltools::tagList(rmarkdown::html_dependency_font_awesome()) -->
+<!-- ``` -->
+
+<!-- <div class="expand collapsed" data-toggle="collapse" data-target="#pastmembers" aria-expanded="false" aria-controls="pastmembers"> -->
+<!-- # Former Councilors <i class="fa fa-angle-double-down"></i> -->
+<!-- </div> -->
+
+<!-- <div class="collapse" id="pastmembers"> -->
+<!-- <br> -->
+
+<!-- ### [Patrick Kinney](https://www.bu.edu/sph/profile/patrick-kinney/){target="_blank"}, 2019 -- 2020 -->
+<!-- ### [Francine Laden](https://www.hsph.harvard.edu/francine-laden/){target="_blank"}, 2019 -- 2020 -->
+
+<!-- </div> -->
