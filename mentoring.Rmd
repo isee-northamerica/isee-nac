@@ -9,5 +9,9 @@ output:
 
 # Mentoring Program
 
-The ISEE NAC plans to launch a peer mentoring program in 2021! Please help us tailor it to your needs by completing [this survey](https://forms.gle/uySmBG4iUcPEEqsM7){target="_blank"}.
+### Spring 2021
+
+We are launching a new mentoring program for ISEE NAC members. We plan to create groups of 5 members that we recommend meet monthly via Zoom for the next year. We will initially provide groups with topics to discuss but then groups will become self-directed. Feedback will be solicited midway through the program. 
+
+Please complete the following [this survey](https://forms.gle/b2ESwx7stdrRccw59){target="_blank"} to let us know your preferences if you would like to participate.
 
