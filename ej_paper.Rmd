@@ -30,6 +30,7 @@ Reviewer conflicts include co-authors, same affiliation (same department/univers
 *Papers nominated for 2021 must have been published in a scientific journal between 1/1/2018 and 12/31/2020.
 <br>
 The nomination packet includes:
+
 - A brief nomination letter that includes details on how the paper meets the award criteria, including a 50-100 word statement on what makes the paper outstanding
 - Copy of the paper
 
