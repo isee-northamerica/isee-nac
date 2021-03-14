@@ -69,7 +69,7 @@ output:
 <img src = "Images/maryWillis.jpeg" style = "width:20%"> 
 </p>
 
-Mary Willis is a PhD candidate at Oregon State University and the Chair of the [SNRN](https://www.iseepi.org/Public/Public/About_Us/ISEE_Committees/Students_and_New_Researchers_Network.aspx){target="_blank"}. 
+[Mary Willis](http://www.marydwillis.com/){target="_blank"}, PhD, MPH, holds a joint postdoc appointment in Environmental and Occupational Health at Oregon State University and Epidemiology at Boston University. She is also the Chair of the [SNRN](https://www.iseepi.org/Public/Public/About_Us/ISEE_Committees/Students_and_New_Researchers_Network.aspx){target="_blank"}. 
 
 <br>
 
