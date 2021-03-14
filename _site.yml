@@ -26,8 +26,6 @@ navbar:
       href: isee_conferences.html
     - text: "JOURNALS"
       href: journals.html
-    - text: "NAC HIGHLIGHTS"
-      href: highlights.html
     - text: "CONTACT US"
       href: about.html
   right:

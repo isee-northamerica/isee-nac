@@ -3,10 +3,10 @@ title: "ISEE CONFERENCES"
 output: html_document
 ---
 
-  Join us in 2020 at ISEE's first-ever [virtual conference](https://isee2020virtual.org/){target="_blank"}! 
+  Join us in 2021 at ISEE's [hybrid conference](https://www.isee2021.org/){target="_blank"}! 
 
 <p align = "center">
-<img src = "Images/iseevirtual.png" style = "width:50%"> 
+<img src = "Images/ISEE2021.jpeg" style = "width:80%"> 
 </p>
 
 <!-- <br> -->
