@@ -22,7 +22,7 @@ output:
 # Carrie Breton
 
 <p align = "center">
-<img src = "Images/Carrie.jpeg" style = "width:20%"> 
+<img src = "Images/CarrieBreton.jpg" style = "width:20%"> 
 </p>
 
 [Carrie Breton](https://keck.usc.edu/faculty-search/carrie-breton/){target="_blank"}, ScD, is an Associate Professor of Preventive Medicine at the Keck School of Medicine of the University of Southern Carolina. 

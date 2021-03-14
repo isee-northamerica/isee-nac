@@ -8,16 +8,20 @@ navbar:
       menu:
       - text: "EXECUTIVE COUNCIL"
         href: executive_council.html
-      - text: "ASSOCIATE MEMBERS"
-        href: associate_members.html
       - text: "POLICY COMMITTEE"
         href: policy_committee.html
+      - text: "MENTORING COMMITTEE"
+        href: mentoring_committee.html
+      - text: "LIAISONS"
+        href: liaisons.html
     - text: "POLICY"
       href: policy.html
     - text: "MENTORING"
       href: mentoring.html
     - text: "WEBINARS"
       href: webinars.html
+    - text: "EJ PAPER AWARD"
+      href: ej_paper.html
     - text: "ISEE CONFERENCES"
       href: isee_conferences.html
     - text: "JOURNALS"

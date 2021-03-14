@@ -1,0 +1,89 @@
+---
+title: "MENTORING COMMITTEE"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+<br>
+
+# Francine Laden, Chair
+
+<p align = "center">
+<img src = "Images/Francine.png" style = "width:20%">
+</p>
+
+[Francine Laden](https://www.hsph.harvard.edu/francine-laden/){target="_blank"}, ScD, MS, is Professor of Environmental Epidemiology at the Harvard T.H. Chan School of Public Health, and an Associate Professor of Medicine at the Harvard Medical School and the Brigham & Women’s Hospital. Dr. Laden received her ScD in Epidemiology and MS in Environmental Health from the Harvard School of Public Health. Her research interests focus on the environmental epidemiology of chronic diseases, including cancer, respiratory and cardiovascular disease. Her research has or is concentrated on the following categories of exposures: air pollution (from ambient and occupational sources), persistent organic pollutants (POPs; organochlorines), secondhand smoke, and the contextual environment (e.g. built environment and green spaces). She is specifically interested in the geographic distribution of disease risk, incorporating geographic information system technology into large cohort studies to explore risk factors such as the built environment and indicators of socioeconomic status, as well as air pollution. She has published key papers on the association of ambient particulate matter and all cause and cardiovascular mortality in the landmark Harvard Six Cities Study and the Nurses’ Health Study and on the association of diesel exhaust exposures and lung cancer mortality in the trucking industry.
+
+<br>
+
+***
+
+<br>
+
+# Sara Adar
+
+<p align = "center">
+<img src = "Images/sadar.jpeg" style = "width:20%"> 
+</p>
+
+[Sara Adar](https://sph.umich.edu/faculty-profiles/adar-sara.html){target="_blank"}, ScD, is an Associate Professor of Epidemiology at the University of Michigan. Her research focuses on the human health effects of air pollution, with a growing interest in identifying intervention strategies reduce exposures and improve health. Dr. Adar has served as an expert panelist for the Environmental Protection Agency and World Health Organization, including participation in the development of the National Ambient Air Quality Standards for particulate matter and sulfur oxides. She has also received the Sandra A. Daugherty Award for Excellence in Cardiovascular Epidemiology from the American Heart Association and the Excellence in Teaching Award from the University of Michigan School of Public Health. Dr. Adar started her career with an environmental engineering degree from MIT and then moved into Public Health, earning a masters from Johns Hopkins School of Public Health and a doctorate from the Harvard School of Public Health.  
+
+<br>
+
+***
+
+<br>
+
+# Jaime Madrigano
+
+<p align = "center">
+<img src = "Images/madrigano.jpeg" style = "width:20%"> 
+</p>
+
+[Jaime Madrigano](https://www.rand.org/about/people/m/madrigano_jaime.html){target="_blank"}, ScD, is an environmental epidemiologist and policy researcher at the RAND Corporation and an affiliate faculty member at the Pardee RAND Graduate School.  Her research focuses on environmental and social determinants of health, including air pollution, neighborhood environments, and extreme weather and disasters. Prior to joining RAND, she was an Assistant Professor at Rutgers University and an Earth Institute Fellow at Columbia University. Dr. Madrigano received her Sc.D. in epidemiology and environmental health from the Harvard T.H. Chan School of Public Health.    
+
+<br>
+
+***
+
+<br>
+
+# Kate Weinberger
+
+<p align = "center">
+<img src = "Images/KateWeinberger.jpg" style = "width:20%"> 
+</p>
+
+[Kate Weinberger](https://www.spph.ubc.ca/person/kate-weinberger/){target="_blank"}, PhD, is an Assistant Professor in the School of Population and Public Health at the University of British Columbia. Prior to joining the faculty at UBC in 2019, Dr. Weinberger received a PhD in environmental health sciences from Columbia University and completed her postdoctoral training in environmental epidemiology at the Brown University School of Public Health. Her research focuses on the links between climate change and human health, with current projects examining health outcomes associated with extreme weather events (e.g., heat waves, tropical cyclones) and aeroallergens. Dr. Weinberger also conducts research on the effectiveness of heat adaptation strategies. 
+
+<br>
+
+***
+
+<br>
+
+# Mary Willis
+
+<p align = "center">
+<img src = "Images/maryWillis.jpeg" style = "width:20%"> 
+</p>
+
+Mary Willis is a PhD candidate at Oregon State University and the Chair of the [SNRN](https://www.iseepi.org/Public/Public/About_Us/ISEE_Committees/Students_and_New_Researchers_Network.aspx){target="_blank"}. 
+
+<br>
+
+***
+
+<br>
+
+# Tracey Woodruff
+
+<p align = "center">
+<img src = "Images/Tracey.jpg" style = "width:20%"> 
+</p>
+
+[Tracey Woodruff](https://prhe.ucsf.edu/faculty-staff){target="_blank"}, is the Director of and Alison S. Carlson Endowed Professor for PRHE and is a Professor in the UCSF Department of Obstetrics, Gynecology and Reproductive Sciences and the Philip R. Lee Institute for Health Policy Studies. She is also the Director of a newly awarded NIEHS Environmental Health Core Center grant, the Environmental Research and Translation for Health (EaRTH) Center at UCSF. She is a recognized expert on environmental pollution exposures and impacts on health, with a focus on pregnancy, infancy and childhood, and her innovations in translating and communicating scientific findings for clinical and policy audiences. She has authored numerous scientific publications and book chapters, and has been quoted widely in the press, including USA Today, the San Francisco Chronicle and The New York Times. Before joining UCSF, Dr. Woodruff was a senior scientist and policy advisor for the U.S. EPA’s Office of Policy. She was appointed by the governor of California in 2012 to the Science Advisory Board of the Developmental and Reproductive Toxicant (DART) Identification Committee.
+
+<br>
+

@@ -13,5 +13,7 @@ output:
 
 We are launching a new mentoring program for ISEE NAC members. We plan to create groups of 5 members that we recommend meet monthly via Zoom for the next year. We will initially provide groups with topics to discuss but then groups will become self-directed. Feedback will be solicited midway through the program. 
 
-Please complete the following [this survey](https://forms.gle/b2ESwx7stdrRccw59){target="_blank"} to let us know your preferences if you would like to participate.
+We thank all ISEE NAC members who expressed interest in the program! We are currently building the groups and we will be launching the program shortly.
+
+<!-- Please complete the following [this survey](https://forms.gle/b2ESwx7stdrRccw59){target="_blank"} to let us know your preferences if you would like to participate. -->
 
