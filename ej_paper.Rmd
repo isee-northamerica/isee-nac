@@ -38,5 +38,5 @@ The nomination packet includes:
 Please send nominations and supporting materials to the ISEE NAC executive council (isee.northamerica@gmail.com) with the subject line: “ISEE NAC EJ Award.” The winning paper will be announced in July of each year. The winner will be asked to present their work on an ISEE NAC webinar in September and receive as award registration to the annual ISEE meeting and a year’s membership.
 
 
-The deadline for submitting ISEE NAC EJ award nominations is <b>May 15, 2021</b>.
+The deadline for submitting ISEE NAC EJ award nominations is <del>May 15, 2021</del> <ins><b>June 15, 2021</b></ins>.
 
