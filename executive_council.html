@@ -13,49 +13,43 @@
 
 <title>EXECUTIVE COUNCIL</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<script src="site_libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-
-
-
 <style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+
+
+
+
+
 
 
 
@@ -65,10 +59,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -85,40 +75,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 45px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h2 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h3 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h4 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h5 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
-.section h6 {
-  padding-top: 50px;
-  margin-top: -50px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -146,7 +112,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -158,7 +124,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -169,10 +135,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -184,7 +163,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -310,7 +288,7 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
+<div class="row">
 <div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
@@ -324,7 +302,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -334,7 +312,7 @@ div.tocify {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     MEMBERS
      
     <span class="caret"></span>
@@ -394,7 +372,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -403,24 +381,60 @@ div.tocify {
 </div>
 
 
-<p>The executive council is comprised of 7 members. At least one member must represent Canada. North American Chapter members can be elected every-other-year to the Executive Council via electronic elections.</p>
+<p>The executive council is comprised of 7 members. At least one member
+must represent Canada. North American Chapter members can be elected
+every-other-year to the Executive Council via electronic elections.</p>
 <p><br></p>
-<p>The following people serve on the seven-member Executive Council of the ISEE North American Chapter:</p>
+<p>The following people serve on the seven-member Executive Council of
+the ISEE North American Chapter:</p>
 <p><br></p>
 <div id="joan-casey-co-chair" class="section level1">
 <h1>Joan Casey, Co-Chair</h1>
 <p align="center">
 <img src = "Images/Joan.jpg" style = "width:20%">
 </p>
-<p><a href="https://www.mailman.columbia.edu/people/our-faculty/jac2250" target="_blank">Joan Casey</a>, PhD, received her doctoral degree from the Department of Environmental Health Sciences at Johns Hopkins Bloomberg School of Public Health in 2014. Dr. Casey is an environmental epidemiologist who focuses on environmental health, environmental justice, and sustainability. Her research uses electronic health records and spatial statistics to study the relationship between emerging environmental exposures and population health. She also considers vulnerable populations and the implications of health disparities, particularly in an era of climate change. Dr. Casey investigates a range of exposures including unconventional natural gas and oil development, coal-fired power plants, and concentrated animal feeding operations. Dr. Casey also holds a BS in Biological and Environmental Engineering from Cornell University and an MA in Applied Physiology from Teachers College at Columbia University. <br></p>
+<p><a href="https://www.mailman.columbia.edu/people/our-faculty/jac2250"
+target="_blank">Joan Casey</a>, PhD, received her doctoral degree from
+the Department of Environmental Health Sciences at Johns Hopkins
+Bloomberg School of Public Health in 2014. Dr. Casey is an environmental
+epidemiologist who focuses on environmental health, environmental
+justice, and sustainability. Her research uses electronic health records
+and spatial statistics to study the relationship between emerging
+environmental exposures and population health. She also considers
+vulnerable populations and the implications of health disparities,
+particularly in an era of climate change. Dr. Casey investigates a range
+of exposures including unconventional natural gas and oil development,
+coal-fired power plants, and concentrated animal feeding operations.
+Dr. Casey also holds a BS in Biological and Environmental Engineering
+from Cornell University and an MA in Applied Physiology from Teachers
+College at Columbia University. <br></p>
 <hr />
 </div>
-<div id="marianthi-anna-kioumourtzoglou-co-chair" class="section level1">
+<div id="marianthi-anna-kioumourtzoglou-co-chair"
+class="section level1">
 <h1>Marianthi-Anna Kioumourtzoglou, Co-Chair</h1>
 <p align="center">
 <img src = "Images/Marianthi.jpg" style = "width:20%">
 </p>
-<p><a href="https://www.publichealth.columbia.edu/people/our-faculty/mk3961" target="_blank">Marianthi-Anna Kioumourtzoglou</a>, ScD, is an environmental engineer and epidemiologist. She holds a Master of Science in Public Health (MSPH) from the Environmental Sciences and Engineering Department at the University of North Carolina at Chapel Hill and a Doctor of Science (ScD) in Environmental Health from the Harvard TH Chan School of Public Health, where she also conducted her post-doctoral fellowship. She is currently an Assistant Professor at the Department of Environmental Health Sciences at Columbia University’s Mailman School of Public Health. Her research focuses on applied statistical issues related to environmental epidemiology, including quantifying and correcting for exposure measurement error, exposure prediction uncertainty propagation, and assessment of high-dimensional and complex exposures in health analyses. Her studies mainly (albeit not exclusively) focus on air pollution exposures and, additionally, on identifying vulnerable sub-populations and characterizing how risks may vary across neighborhood-level and other urban characteristics, as well as in a changing climate.</p>
+<p><a
+href="https://www.publichealth.columbia.edu/people/our-faculty/mk3961"
+target="_blank">Marianthi-Anna Kioumourtzoglou</a>, ScD, is an
+environmental engineer and epidemiologist. She holds a Master of Science
+in Public Health (MSPH) from the Environmental Sciences and Engineering
+Department at the University of North Carolina at Chapel Hill and a
+Doctor of Science (ScD) in Environmental Health from the Harvard TH Chan
+School of Public Health, where she also conducted her post-doctoral
+fellowship. She is currently an Assistant Professor at the Department of
+Environmental Health Sciences at Columbia University’s Mailman School of
+Public Health. Her research focuses on applied statistical issues
+related to environmental epidemiology, including quantifying and
+correcting for exposure measurement error, exposure prediction
+uncertainty propagation, and assessment of high-dimensional and complex
+exposures in health analyses. Her studies mainly (albeit not
+exclusively) focus on air pollution exposures and, additionally, on
+identifying vulnerable sub-populations and characterizing how risks may
+vary across neighborhood-level and other urban characteristics, as well
+as in a changing climate.</p>
 <p><br></p>
 <hr />
 <p><br></p>
@@ -430,7 +444,21 @@ div.tocify {
 <p align="center">
 <img src = "Images/CarrieBreton.jpg" style = "width:20%">
 </p>
-<p><a href="https://preventivemedicine.usc.edu/Carrie-Breton/" target="_blank">Carrie Breton</a>, ScD, is Associate Professor of Preventive Medicine at the Keck School of Medicine of USC. The overarching goals of her research program are to understand how environmental exposures early in life contribute to the increased risk of disease later in life, as well as the role genetic and epigenetic mechanisms play in driving observed associations. Despite evidence from animal models supporting a developmental origins of adult disease hypothesis (DOHad), which proposes that adverse events during early life program an increased risk for numerous adult diseases, human studies of in utero or childhood environmental exposures have not been a primary focus until recently. Her work in evaluating prenatal air pollution and prenatal tobacco smoke exposures provides evidence that early life exposures are important risk factors for cardio-respiratory health in children and young adults.</p>
+<p><a href="https://preventivemedicine.usc.edu/Carrie-Breton/"
+target="_blank">Carrie Breton</a>, ScD, is Associate Professor of
+Preventive Medicine at the Keck School of Medicine of USC. The
+overarching goals of her research program are to understand how
+environmental exposures early in life contribute to the increased risk
+of disease later in life, as well as the role genetic and epigenetic
+mechanisms play in driving observed associations. Despite evidence from
+animal models supporting a developmental origins of adult disease
+hypothesis (DOHad), which proposes that adverse events during early life
+program an increased risk for numerous adult diseases, human studies of
+in utero or childhood environmental exposures have not been a primary
+focus until recently. Her work in evaluating prenatal air pollution and
+prenatal tobacco smoke exposures provides evidence that early life
+exposures are important risk factors for cardio-respiratory health in
+children and young adults.</p>
 <p><br></p>
 <hr />
 <!-- <br> -->
@@ -448,7 +476,30 @@ div.tocify {
 <p align="center">
 <img src = "Images/Joel.jpg" style = "width:20%">
 </p>
-<p><a href="https://www.hsph.harvard.edu/joel-schwartz/" target="_blank">Joel Schwartz</a>, PhD, is a Professor of Epidemiology at the Harvard T.H. Chan School of Public Health. Joel’s research is divided in three main areas: First, he is interested in epidemiology looking at the health consequences of exposure to pollutants. To date this has had two focuses: health effects of lead and health effects of air pollutants. He has recently begun work looking at water contamination. Second, Joel is also interested in methodological questions regarding the modeling of continuous covariates in epidemiologic studies, both for better covariate control and to more accurately assess the relationship between exposure and response. This has involved regression spline models, nonparametric smoothing, and generalized additive models. Joel has been using mixed and hierarchical models to combine this information across studies. Case-crossover techniques have also been introduced for these purposes. He has demonstrated the effectiveness of these tools in applications in both lead and air pollution studies. He has also been interested in issues involving time series studies, where the outcomes measures are not independent. This has involved generalized least squares and generalized estimating equation approaches. Third, Joel’s research has focused on the effects of antioxidants on respiratory health. To date, this has focused on chronic effects (e.g. relationship between dietary intake and level of pulmonary function or symptoms), but future research will examine their potential to modify acute responses as well.</p>
+<p><a href="https://www.hsph.harvard.edu/joel-schwartz/"
+target="_blank">Joel Schwartz</a>, PhD, is a Professor of Epidemiology
+at the Harvard T.H. Chan School of Public Health. Joel’s research is
+divided in three main areas: First, he is interested in epidemiology
+looking at the health consequences of exposure to pollutants. To date
+this has had two focuses: health effects of lead and health effects of
+air pollutants. He has recently begun work looking at water
+contamination. Second, Joel is also interested in methodological
+questions regarding the modeling of continuous covariates in
+epidemiologic studies, both for better covariate control and to more
+accurately assess the relationship between exposure and response. This
+has involved regression spline models, nonparametric smoothing, and
+generalized additive models. Joel has been using mixed and hierarchical
+models to combine this information across studies. Case-crossover
+techniques have also been introduced for these purposes. He has
+demonstrated the effectiveness of these tools in applications in both
+lead and air pollution studies. He has also been interested in issues
+involving time series studies, where the outcomes measures are not
+independent. This has involved generalized least squares and generalized
+estimating equation approaches. Third, Joel’s research has focused on
+the effects of antioxidants on respiratory health. To date, this has
+focused on chronic effects (e.g. relationship between dietary intake and
+level of pulmonary function or symptoms), but future research will
+examine their potential to modify acute responses as well.</p>
 <p><br></p>
 <hr />
 <p><br></p>
@@ -458,7 +509,28 @@ div.tocify {
 <p align="center">
 <img src = "Images/Paul.jpg" style = "width:20%">
 </p>
-<p><a href="https://carleton.ca/eoel/" target="_blank">Paul Villeneuve</a>, PhD, is currently a Professor in the School of Mathematics and Statistics, while holding appointments in the Department of Health Sciences and in the Departments of Health Sciences and Neurosciences at Carleton University. He is also an Affiliate Scientist at the Ontario Occupational Cancer Research Centre in Toronto, and an Associate Editor for the journal Environmental and Occupational Medicine. Paul continues to serve as an on the Advisory Committee for the Canadian Health Adaptations, Innovations, and Mobilization (CHAIM) Centre at Carleton. Paul’s research focuses on investigating the associations between environmental and occupational exposures and a number of adverse health outcomes. Specific projects include evaluating the impacts of long-term exposure to air pollution and the risk of chronic diseases such as cancer, diabetes and dementia. Paul also studies the health benefits of urban greenness which include how these features of the built environment help promote physical activity, and reduce the risk of mortality, and adverse birth outcomes. Paul’s research activities have also investigated the impacts of urban greenness in reducing harmful exposures of air pollution, noise, and urban heat island. He is currently leading a study that is characterizing the risk of lung cancer in a cohort of Newfoundland miners who were occupationally exposed to radon. <br></p>
+<p><a href="https://carleton.ca/eoel/" target="_blank">Paul
+Villeneuve</a>, PhD, is currently a Professor in the School of
+Mathematics and Statistics, while holding appointments in the Department
+of Health Sciences and in the Departments of Health Sciences and
+Neurosciences at Carleton University. He is also an Affiliate Scientist
+at the Ontario Occupational Cancer Research Centre in Toronto, and an
+Associate Editor for the journal Environmental and Occupational
+Medicine. Paul continues to serve as an on the Advisory Committee for
+the Canadian Health Adaptations, Innovations, and Mobilization (CHAIM)
+Centre at Carleton. Paul’s research focuses on investigating the
+associations between environmental and occupational exposures and a
+number of adverse health outcomes. Specific projects include evaluating
+the impacts of long-term exposure to air pollution and the risk of
+chronic diseases such as cancer, diabetes and dementia. Paul also
+studies the health benefits of urban greenness which include how these
+features of the built environment help promote physical activity, and
+reduce the risk of mortality, and adverse birth outcomes. Paul’s
+research activities have also investigated the impacts of urban
+greenness in reducing harmful exposures of air pollution, noise, and
+urban heat island. He is currently leading a study that is
+characterizing the risk of lung cancer in a cohort of Newfoundland
+miners who were occupationally exposed to radon. <br></p>
 <hr />
 <p><br></p>
 </div>
@@ -467,7 +539,18 @@ div.tocify {
 <p align="center">
 <img src = "Images/KateWeinberger.jpg" style = "width:20%">
 </p>
-<p><a href="https://www.spph.ubc.ca/person/kate-weinberger/" target="_blank">Kate Weinberger</a>, PhD, is an Assistant Professor in the School of Population and Public Health at the University of British Columbia. Prior to joining the faculty at UBC in 2019, Dr. Weinberger received a PhD in environmental health sciences from Columbia University and completed her postdoctoral training in environmental epidemiology at the Brown University School of Public Health. Her research focuses on the links between climate change and human health, with current projects examining health outcomes associated with extreme weather events (e.g., heat waves, tropical cyclones) and aeroallergens. Dr. Weinberger also conducts research on the effectiveness of heat adaptation strategies. <br></p>
+<p><a href="https://www.spph.ubc.ca/person/kate-weinberger/"
+target="_blank">Kate Weinberger</a>, PhD, is an Assistant Professor in
+the School of Population and Public Health at the University of British
+Columbia. Prior to joining the faculty at UBC in 2019, Dr. Weinberger
+received a PhD in environmental health sciences from Columbia University
+and completed her postdoctoral training in environmental epidemiology at
+the Brown University School of Public Health. Her research focuses on
+the links between climate change and human health, with current projects
+examining health outcomes associated with extreme weather events (e.g.,
+heat waves, tropical cyclones) and aeroallergens. Dr. Weinberger also
+conducts research on the effectiveness of heat adaptation strategies.
+<br></p>
 <hr />
 <p><br></p>
 </div>
@@ -476,7 +559,23 @@ div.tocify {
 <p align="center">
 <img src = "Images/Tracey.jpg" style = "width:20%">
 </p>
-<p><a href="https://prhe.ucsf.edu/faculty-staff" target="_blank">Tracey Woodruff</a>, is the Director of and Alison S. Carlson Endowed Professor for PRHE and is a Professor in the UCSF Department of Obstetrics, Gynecology and Reproductive Sciences and the Philip R. Lee Institute for Health Policy Studies. She is also the Director of a newly awarded NIEHS Environmental Health Core Center grant, the Environmental Research and Translation for Health (EaRTH) Center at UCSF. She is a recognized expert on environmental pollution exposures and impacts on health, with a focus on pregnancy, infancy and childhood, and her innovations in translating and communicating scientific findings for clinical and policy audiences. She has authored numerous scientific publications and book chapters, and has been quoted widely in the press, including USA Today, the San Francisco Chronicle and The New York Times. Before joining UCSF, Dr. Woodruff was a senior scientist and policy advisor for the U.S. EPA’s Office of Policy. She was appointed by the governor of California in 2012 to the Science Advisory Board of the Developmental and Reproductive Toxicant (DART) Identification Committee.</p>
+<p><a href="https://prhe.ucsf.edu/faculty-staff" target="_blank">Tracey
+Woodruff</a>, is the Director of and Alison S. Carlson Endowed Professor
+for PRHE and is a Professor in the UCSF Department of Obstetrics,
+Gynecology and Reproductive Sciences and the Philip R. Lee Institute for
+Health Policy Studies. She is also the Director of a newly awarded NIEHS
+Environmental Health Core Center grant, the Environmental Research and
+Translation for Health (EaRTH) Center at UCSF. She is a recognized
+expert on environmental pollution exposures and impacts on health, with
+a focus on pregnancy, infancy and childhood, and her innovations in
+translating and communicating scientific findings for clinical and
+policy audiences. She has authored numerous scientific publications and
+book chapters, and has been quoted widely in the press, including USA
+Today, the San Francisco Chronicle and The New York Times. Before
+joining UCSF, Dr. Woodruff was a senior scientist and policy advisor for
+the U.S. EPA’s Office of Policy. She was appointed by the governor of
+California in 2012 to the Science Advisory Board of the Developmental
+and Reproductive Toxicant (DART) Identification Committee.</p>
 <p><br></p>
 <hr />
 <p><br></p>
@@ -485,10 +584,12 @@ div.tocify {
 <h1>Former Councilors</h1>
 <p><br></p>
 <div id="patrick-kinney-2019-2020" class="section level3">
-<h3><a href="https://www.bu.edu/sph/profile/patrick-kinney/" target="_blank">Patrick Kinney</a>, 2019 – 2020</h3>
+<h3><a href="https://www.bu.edu/sph/profile/patrick-kinney/"
+target="_blank">Patrick Kinney</a>, 2019 – 2020</h3>
 </div>
 <div id="francine-laden-2019-2020" class="section level3">
-<h3><a href="https://www.hsph.harvard.edu/francine-laden/" target="_blank">Francine Laden</a>, 2019 – 2020</h3>
+<h3><a href="https://www.hsph.harvard.edu/francine-laden/"
+target="_blank">Francine Laden</a>, 2019 – 2020</h3>
 <!-- ```{r setup, include=FALSE} -->
 <!-- htmltools::tagList(rmarkdown::html_dependency_font_awesome()) -->
 <!-- ``` -->
@@ -514,7 +615,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -532,7 +633,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
@@ -541,6 +642,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
