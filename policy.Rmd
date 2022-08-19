@@ -52,12 +52,12 @@ Please see some of the comments we have submitted on behalf of ISEE-NAC:
 
 ### Comments on the US Environmental Protection Agency (EPA) Proposed Rules
 
-- June 2022: EPA’s Good Neighbor Plan regarding the Federal Implementation Plan Addressing Regional Ozone Transport for the 2015 Primary Ozone National Ambient Air Quality Standard (<a href="ISEE_NAC_June2022_GoodNeighborComments.pdf" target="_blank">pdf</a>) 
+- June 2022: EPA’s Good Neighbor Plan regarding the Federal Implementation Plan Addressing Regional Ozone Transport for the 2015 Primary Ozone National Ambient Air Quality Standard (<a href="Comments/ISEE_NAC_June2022_GoodNeighborComments.pdf" target="_blank">pdf</a>) 
 
 - May 2022: CASAC Review of the document titled Policy Assessment for the Reconsideration of the Ozone
-National Ambient Air Quality Standards, External Review Draft (<a href="ISEE_NAC_May2022_OzoneComments.pdf" target="_blank">pdf</a>) 
+National Ambient Air Quality Standards, External Review Draft (<a href="Comments/ISEE_NAC_May2022_OzoneComments.pdf" target="_blank">pdf</a>) 
 
-- November 2021: Comments on the Supplement to the 2019 Integrated Science Assessment for Particulate Matter (External Review Draft, 2021) (<a href="ISEE NAC Nov2021 PM CommentsFinal.pdf" target="_blank">pdf</a>)
+- November 2021: Comments on the Supplement to the 2019 Integrated Science Assessment for Particulate Matter (External Review Draft, 2021) (<a href="Comments/ISEE NAC Nov2021 PM CommentsFinal.pdf" target="_blank">pdf</a>)
 
 - April 2021: [National Primary Drinking Water Regulations: Lead and Copper Rule Revisions; Delay of Effective and Compliance Dates](https://www.regulations.gov/comment/EPA-HQ-OW-2017-0300-1864){target="_blank"} (<a href="Comments/EPA-HQ-OW-2017-0300-1864_attachment_1.pdf" target="_blank">pdf</a>)
 
