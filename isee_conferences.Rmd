@@ -3,11 +3,11 @@ title: "ISEE CONFERENCES"
 output: html_document
 ---
 
-  Join us in 2021 at ISEE's [hybrid conference](https://www.isee2021.org/){target="_blank"}! 
+<br>
 
-<p align = "center">
-<img src = "Images/ISEE2021.jpeg" style = "width:80%"> 
-</p>
+  Join us in beautiful Corvallis, OR (06.19-21.2023) for ISEE NAC's first-ever [meeting](https://iseenac2023.org/){target="_blank"}! 
+
+  Abstract submission is now open; abstracts are due November 30<sup>th</sup>! Information about abstract submission can be found [here](https://iseenac2023.org/abstracts/){target="_blank"}.
 
 <!-- <br> -->
 
@@ -19,6 +19,6 @@ output: html_document
 
 ***
 
-Information regarding other future ISEE Meetings can be found [here](https://www.iseepi.org/Public/Annual_Meeting/Future_Meetings/Public/Annual_Meetings/Future_Meetings.aspx?hkey=6ac6ca51-7884-42c5-a6a0-c3811b8602ff){target="_blank"}.
+Information regarding past and future ISEE Global Meetings can be found [here](https://www.iseepi.org/Public/Annual_Meeting/Future_Meetings/Public/Annual_Meetings/Future_Meetings.aspx?hkey=6ac6ca51-7884-42c5-a6a0-c3811b8602ff){target="_blank"}.
 
 </br>
