@@ -5,14 +5,14 @@ output: html_document
 
 <u>Executive Council:</u>
 <br>
-Joan Casey, Co-Chair
+Carrie Breton, Co-Chair
 <br>
-jac2250@cumc.columbia.edu
+breton@usc.edu
 <br>
 <br>
-Marianthi-Anna Kioumourtzoglou, Co-Chair
+Jaime Madrigano, Co-Chair
 <br>
-mk3961@cumc.columbia.edu
+jmadrig4@jhmi.edu
 <br>
 <br>
 <u>Website:</u>
