@@ -13,42 +13,56 @@ The following people serve on the seven-member Executive Council of the ISEE Nor
 
 <br>
 
-# Joan Casey, Co-Chair
-
-<p align = "center">
-<img src = "Images/Joan.jpg" style = "width:20%"> 
-</p>
-
-[Joan Casey](https://www.mailman.columbia.edu/people/our-faculty/jac2250){target="_blank"}, PhD, received her doctoral degree from the Department of Environmental Health Sciences at Johns Hopkins Bloomberg School of Public Health in 2014. Dr. Casey is an environmental epidemiologist who focuses on environmental health, environmental justice, and sustainability. Her research uses electronic health records and spatial statistics to study the relationship between emerging environmental exposures and population health. She also considers vulnerable populations and the implications of health disparities, particularly in an era of climate change. Dr. Casey investigates a range of exposures including unconventional natural gas and oil development, coal-fired power plants, and concentrated animal feeding operations. Dr. Casey also holds a BS in Biological and Environmental Engineering from Cornell University and an MA in Applied Physiology from Teachers College at Columbia University.
-<br>
-
-***
-
-# Marianthi-Anna Kioumourtzoglou, Co-Chair
-
-<p align = "center">
-<img src = "Images/Marianthi.jpg" style = "width:20%"> 
-</p> 
-
-[Marianthi-Anna Kioumourtzoglou](https://www.publichealth.columbia.edu/people/our-faculty/mk3961){target="_blank"}, ScD, is an environmental engineer and epidemiologist. She holds a Master of Science in Public Health (MSPH) from the Environmental Sciences and Engineering Department at the University of North Carolina at Chapel Hill and a Doctor of Science (ScD) in Environmental Health from the Harvard TH Chan School of Public Health, where she also conducted her post-doctoral fellowship. She is currently an Assistant Professor at the Department of Environmental Health Sciences at Columbia University's Mailman School of Public Health. Her research focuses on applied statistical issues related to environmental epidemiology, including quantifying and correcting for exposure measurement error, exposure prediction uncertainty propagation, and assessment of high-dimensional and complex exposures in health analyses. Her studies mainly (albeit not exclusively) focus on air pollution exposures and, additionally, on identifying vulnerable sub-populations and characterizing how risks may vary across neighborhood-level and other urban characteristics, as well as in a changing climate.
-
-<br>
-
-
-***
-
-<br>
-
-# Carrie Breton, Incoming Co-Chair (01.2023) 
+# Carrie Breton, Co-Chair
 
 <p align = "center">
 <img src = "Images/CarrieBreton.jpg" style = "width:20%"> 
 </p>
 
-[Carrie Breton](https://preventivemedicine.usc.edu/Carrie-Breton/){target="_blank"}, ScD, is Associate Professor of Preventive Medicine at the Keck School of Medicine of USC. The overarching goals of her research program are to understand how environmental exposures early in life contribute to the increased risk of disease later in life, as well as the role genetic and epigenetic mechanisms play in driving observed associations. Despite evidence from animal models supporting a developmental origins of adult disease hypothesis (DOHad), which proposes that adverse events during early life program an increased risk for numerous adult diseases, human studies of in utero or childhood environmental exposures have not been a primary focus until recently. Her work in evaluating prenatal air pollution and prenatal tobacco smoke exposures provides evidence that early life exposures are important risk factors for cardio-respiratory health in children and young adults.
+[Carrie Breton](https://keck.usc.edu/faculty-search/carrie-breton/){target="_blank"}, ScD, is Professor of Population and Public Health Sciences at the Keck School of Medicine of USC. The overarching goals of her research program are to understand how environmental exposures early in life contribute to the increased risk of disease later in life, as well as the role genetic and epigenetic mechanisms play in driving observed associations. Despite evidence from animal models supporting a developmental origins of adult disease hypothesis (DOHad), which proposes that adverse events during early life program an increased risk for numerous adult diseases, human studies of in utero or childhood environmental exposures have not been a primary focus until recently. Her work in evaluating prenatal air pollution and prenatal tobacco smoke exposures provides evidence that early life exposures are important risk factors for cardio-respiratory health in children and young adults.
+<br>
+
+***
+
+# Jaime Madrigano, Co-Chair
+
+<p align = "center">
+<img src = "Images/madrigano.jpeg" style = "width:20%"> 
+</p> 
+
+[Jaime Madrigano](https://publichealth.jhu.edu/faculty/4342/jaime-madrigano){target="_blank"}, ScD, is an environmental epidemiologist and Associate Professor at the Johns Hopkins Bloomberg School of Public Health. Her research focuses on environmental and social determinants of health, including air pollution, neighborhood environments, and extreme weather and disasters. Prior to joining Johns Hopkins, she was an environmental epidemiologist and policy researcher at the RAND Corporation, an Assistant Professor at Rutgers University, and an Earth Institute Fellow at Columbia University. Dr. Madrigano received her Sc.D. in epidemiology and environmental health from the Harvard T.H. Chan School of Public Health.
 
 <br>
 
+
+***
+
+<br>
+
+# Jessie Buckley 
+
+<p align = "center">
+<img src = "Images/JessieBuckley.jpg" style = "width:20%"> 
+</p>
+
+[Jessie Buckley](https://publichealth.jhu.edu/faculty/3357/jessie-p-buckley){target="_blank"}, PhD, is Associate Professor of Environmental Health and Engineering at the Johns Hopkins Bloomberg School of Public Health. Her research focuses on early-life exposures to environmental chemicals and children's health.
+
+<br>
+
+
+***
+
+<br>
+
+# Aisha Dickerson
+
+<p align = "center">
+<img src = "Images/AishaDickerson.jpg" style = "width:20%"> 
+</p>
+
+[Aisha Dickerson](https://publichealth.jhu.edu/faculty/3898/aisha-s-dickerson){target="_blank"}, PhD, is Assistant Professor of Epidemiology at the Johns Hopkins Bloomberg School of Public Health. Her research evaluates the impact of environmental exposures on autism and dementia across the lifespan, with a focus on underserved communities.
+
+<br>
 
 ***
 
@@ -57,38 +71,22 @@ The following people serve on the seven-member Executive Council of the ISEE Nor
 # Shohreh Farzan
 
 <p align = "center">
-<img src = "Images/Farzan" style = "width:20%"> 
+<img src = "Images/Farzan.jpeg" style = "width:20%"> 
 </p>
 
 [Shohreh Farzan](https://keck.usc.edu/faculty-search/shohreh-f-farzan/){target="_blank"}, PhD, is Assistant Professor of Population and Public Health Sciences at the Keck School of Medicine of USC. Dr. Farzan’s research focuses on the impact of environmental contaminants on maternal-child health, with a special interest in cardiometabolic health. Much of Dr. Farzan’s work focuses on the role of environmental exposures in altering preclinical indicators of cardiovascular and metabolic disease risk, particularly during vulnerable lifestages, such as childhood and pregnancy. Within the Maternal and Developmental Risks of Environmental and Social Stressors (MADRES) study, a NIMHD-funded Center of Excellence on Environmental Health Disparities Research, she focuses on the role of prenatal air pollutants and psychosocial stressors on maternal postpartum cardiometabolic health.
 
 <br>
 
-
 ***
 
-# Jaime Madrigano, Incoming Co-Chair (01.2023) 
+# Scott Weichenthal
 
 <p align = "center">
-<img src = "Images/madrigano.jpeg" style = "width:20%"> 
+<img src = "Images/ScottWeichenthal.jpg" style = "width:20%">
 </p>
 
-[Jaime Madrigano](https://publichealth.jhu.edu/faculty/4342/jaime-madrigano){target="_blank"}, ScD, is an environmental epidemiologist and Associate Professor at the Johns Hopkins Bloomberg School of Public Health. Her research focuses on environmental and social determinants of health, including air pollution, neighborhood environments, and extreme weather and disasters. Prior to joining Johns Hopkins, she was an environmental epidemiologist and policy researcher at the RAND Corporation, an Assistant Professor at Rutgers University, and an Earth Institute Fellow at Columbia University. Dr. Madrigano received her Sc.D. in epidemiology and environmental health from the Harvard T.H. Chan School of Public Health.    
-
-<br>
-
-***
-
-<br>
-
-# Joel Schwartz
-
-<p align = "center">
-<img src = "Images/Joel.jpg" style = "width:20%"> 
-</p>
-
-[Joel Schwartz](https://www.hsph.harvard.edu/joel-schwartz/){target="_blank"}, PhD, is a Professor of Epidemiology at the Harvard T.H. Chan School of Public Health. Joel's research is divided in three main areas: First, he is interested in epidemiology looking at the health consequences of exposure to pollutants. To date this has had two focuses: health effects of lead and health effects of air pollutants. He has recently begun work looking at water contamination. Second, Joel is also interested in methodological questions regarding the modeling of continuous covariates in epidemiologic studies, both for better covariate control and to more accurately assess the relationship between exposure and response. This has involved regression spline models, nonparametric smoothing, and generalized additive models. Joel has been using mixed and hierarchical models to combine this information across studies. Case-crossover techniques have also been introduced for these purposes. He has demonstrated the effectiveness of these tools in applications in both lead and air pollution studies. He has also been interested in issues involving time series studies, where the outcomes measures are not independent. This has involved generalized least squares and generalized estimating equation approaches. Third, Joel's research has focused on the effects of antioxidants on respiratory health. To date, this has focused on chronic effects (e.g. relationship between dietary intake and level of pulmonary function or symptoms), but future research will examine their potential to modify acute responses as well.
-
+[Scott Weichenthal](){target="_blank"}, PhD, is an Assistant Professor of Epidemiology, Biostatistics, and Occupational Health at McGill University. His research focuses on identifying environmental risk factors for cancer and cardiovascular diseases. 
 <br>
 
 ***
@@ -101,7 +99,7 @@ The following people serve on the seven-member Executive Council of the ISEE Nor
 <img src = "Images/KateWeinberger.jpg" style = "width:20%"> 
 </p>
 
-[Kate Weinberger](https://www.spph.ubc.ca/person/kate-weinberger/){target="_blank"}, PhD, is an Assistant Professor in the School of Population and Public Health at the University of British Columbia. Prior to joining the faculty at UBC in 2019, Dr. Weinberger received a PhD in environmental health sciences from Columbia University and completed her postdoctoral training in environmental epidemiology at the Brown University School of Public Health. Her research focuses on the links between climate change and human health, with current projects examining health outcomes associated with extreme weather events (e.g., heat waves, tropical cyclones) and aeroallergens. Dr. Weinberger also conducts research on the effectiveness of heat adaptation strategies. 
+[Kate Weinberger](https://www.grad.ubc.ca/researcher/17978-weinberger){target="_blank"}, PhD, is an Assistant Professor in the School of Population and Public Health at the University of British Columbia. Prior to joining the faculty at UBC in 2019, Dr. Weinberger received a PhD in environmental health sciences from Columbia University and completed her postdoctoral training in environmental epidemiology at the Brown University School of Public Health. Her research focuses on the links between climate change and human health, with current projects examining health outcomes associated with extreme weather events (e.g., heat waves, tropical cyclones) and aeroallergens. Dr. Weinberger also conducts research on the effectiveness of heat adaptation strategies. 
 <br>
 
 ***
@@ -111,6 +109,9 @@ The following people serve on the seven-member Executive Council of the ISEE Nor
 # Former Councilors
 <br>
 
+### [Joan Casey](https://deohs.washington.edu/faculty/joan-casey){target="_blank"}, 2020 -- 2022
+### [Marianthi-Anna Kioumourtzoglou](https://www.publichealth.columbia.edu/people/our-faculty/mk3961){target="_blank"}, 2020 -- 2022
+### [Joel Schwartz](https://www.hsph.harvard.edu/joel-schwartz/){target="_blank"}, 2020 -- 2022
 ### [Patrick Kinney](https://www.bu.edu/sph/profile/patrick-kinney/){target="_blank"}, 2019 -- 2020
 ### [Francine Laden](https://www.hsph.harvard.edu/francine-laden/){target="_blank"}, 2019 -- 2020
 ### [Paul Villeneuve](https://carleton.ca/eoel/){target="_blank"}, 2019 -- 2021
