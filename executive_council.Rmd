@@ -24,14 +24,13 @@ The following people serve on the seven-member Executive Council of the ISEE Nor
 
 ***
 
-# Jaime Madrigano, Co-Chair
+# Shohreh Farzan, Co-Chair
 
 <p align = "center">
-<img src = "Images/madrigano.jpeg" style = "width:20%"> 
+<img src = "Images/Farzan.jpeg" style = "width:20%"> 
 </p> 
 
-[Jaime Madrigano](https://publichealth.jhu.edu/faculty/4342/jaime-madrigano){target="_blank"}, ScD, is an environmental epidemiologist and Associate Professor at the Johns Hopkins Bloomberg School of Public Health. Her research focuses on environmental and social determinants of health, including air pollution, neighborhood environments, and extreme weather and disasters. Prior to joining Johns Hopkins, she was an environmental epidemiologist and policy researcher at the RAND Corporation, an Assistant Professor at Rutgers University, and an Earth Institute Fellow at Columbia University. Dr. Madrigano received her Sc.D. in epidemiology and environmental health from the Harvard T.H. Chan School of Public Health.
-
+[Shohreh Farzan](https://keck.usc.edu/faculty-search/shohreh-f-farzan/){target="_blank"}, PhD, is Assistant Professor of Population and Public Health Sciences at the Keck School of Medicine of USC. Dr. Farzan’s research focuses on the impact of environmental contaminants on maternal-child health, with a special interest in cardiometabolic health. Much of Dr. Farzan’s work focuses on the role of environmental exposures in altering preclinical indicators of cardiovascular and metabolic disease risk, particularly during vulnerable lifestages, such as childhood and pregnancy. Within the Maternal and Developmental Risks of Environmental and Social Stressors (MADRES) study, a NIMHD-funded Center of Excellence on Environmental Health Disparities Research, she focuses on the role of prenatal air pollutants and psychosocial stressors on maternal postpartum cardiometabolic health.
 <br>
 
 
@@ -68,13 +67,13 @@ The following people serve on the seven-member Executive Council of the ISEE Nor
 
 <br>
 
-# Shohreh Farzan
+# Jaime Madrigano
 
 <p align = "center">
-<img src = "Images/Farzan.jpeg" style = "width:20%"> 
+<img src = "Images/madrigano.jpeg" style = "width:20%"> 
 </p>
 
-[Shohreh Farzan](https://keck.usc.edu/faculty-search/shohreh-f-farzan/){target="_blank"}, PhD, is Assistant Professor of Population and Public Health Sciences at the Keck School of Medicine of USC. Dr. Farzan’s research focuses on the impact of environmental contaminants on maternal-child health, with a special interest in cardiometabolic health. Much of Dr. Farzan’s work focuses on the role of environmental exposures in altering preclinical indicators of cardiovascular and metabolic disease risk, particularly during vulnerable lifestages, such as childhood and pregnancy. Within the Maternal and Developmental Risks of Environmental and Social Stressors (MADRES) study, a NIMHD-funded Center of Excellence on Environmental Health Disparities Research, she focuses on the role of prenatal air pollutants and psychosocial stressors on maternal postpartum cardiometabolic health.
+[Jaime Madrigano](https://publichealth.jhu.edu/faculty/4342/jaime-madrigano){target="_blank"}, ScD, is an environmental epidemiologist and Associate Professor at the Johns Hopkins Bloomberg School of Public Health. Her research focuses on environmental and social determinants of health, including air pollution, neighborhood environments, and extreme weather and disasters. Prior to joining Johns Hopkins, she was an environmental epidemiologist and policy researcher at the RAND Corporation, an Assistant Professor at Rutgers University, and an Earth Institute Fellow at Columbia University. Dr. Madrigano received her Sc.D. in epidemiology and environmental health from the Harvard T.H. Chan School of Public Health.
 
 <br>
 
