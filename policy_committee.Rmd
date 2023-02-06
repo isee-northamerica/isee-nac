@@ -7,36 +7,26 @@ output:
 ---
 <br>
 
-# George Thurston, Chair
+# Charlie Roscoe, Co-Chair
 
 <p align = "center">
-<img src = "Images/George.png" style = "width:20%"> 
+<img src = "Images/CharlieRoscoe.jpg" style = "width:20%"> 
 </p>
 
-[George Thurston](https://med.nyu.edu/faculty/george-d-thurston){target="_blank"}, ScD, is Director of the Program in Exposure Assessment and Human Health Effects at the Department of Environmental Medicine, NYU School of Medicine, and is a leading scholar on the human health effects of air pollution. His research has focused on health effects of air pollution in New York City, as well as in cities across the nation and around the world. In 1987, he published the first research that showed the association between fine particulate matter (PM<sub>2.5</sub>) and mortality, as well as the first paper using source apportionment methods to relate specific PM<sub>2.5</sub> sources with mortality, especially coal burning. In New York City, this has included his Backpack Study of the effect of diesel air pollution on children with asthma in the South Bronx. His research and collaborations in cities around the globe has included a study of the effects of industrial air pollution among children in Cubatao, Brazil. He was also an author of the most recent World Health Organization (WHO) Global Burden of Disease (GBD) report, published in the Lancet in 2012, which provided global estimates of the life years lost due to outdoor fine particulate matter air pollution (PM<sub>2.5</sub>), which were based in large measure on Dr. Thurston's ACS cohort studies of PM<sub>2.5</sub> air pollution and mortality, and his leading-edge collaborative research in which global PM<sub>2.5</sub> concentrations were estimated based on global satellite data. Dr. Thurston has also been a leader in advancing the intersection of science and public policy decision-making. He has been called upon to testify before the US Senate and the House of Representatives on dozens of occasions to explain the public policy implications of air pollution research, most recently in October 2011 regarding the proposed mercury emission regulations.
+[Charlie Roscoe](https://www.hsph.harvard.edu/profile/charlie-roscoe/){target="_blank"}, PhD, is an environmental epidemiologist and Postdoctoral Research Fellow at the Dana-Farber Cancer Institute and Harvard T.H. Chan School of Public Health. 
 
 <br>
 
 ***
 
-# Carrie Breton
-
-<p align = "center">
-<img src = "Images/CarrieBreton.jpg" style = "width:20%"> 
-</p>
-
-[Carrie Breton](https://keck.usc.edu/faculty-search/carrie-breton/){target="_blank"}, ScD, is an Associate Professor of Preventive Medicine at the Keck School of Medicine of the University of Southern Carolina. 
-<br>
-
-***
-
-# Kelvin Fong
+# Kelvin Fong, Co-Chair
 
 <p align = "center">
 <img src = "Images/Kelvin.jpg" style = "width:20%"> 
 </p>
 
-[Kelvin Fong](https://kelvinfong.ca/){target="_blank"}, PhD, MSc, is an environmental epidemiologist and postdoctoral associate in Michelle Bell's Group at Yale University.  
+[Kelvin Fong](https://kelvinfong.ca/){target="_blank"}, PhD, MSc, is an environmental epidemiologist and Assistant Professor at Dalhousie University. 
+
 <br>
 
 ***
