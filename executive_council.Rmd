@@ -16,7 +16,7 @@ The following people serve on the seven-member Executive Council of the ISEE Nor
 # Carrie Breton, Co-Chair
 
 <p align = "center">
-<img src = "Images/CarrieBreton.jpg" style = "width:20%"> 
+<img src = "Images/breton_photo2023.jpg" style = "width:20%"> 
 </p>
 
 [Carrie Breton](https://keck.usc.edu/faculty-search/carrie-breton/){target="_blank"}, ScD, is Professor of Population and Public Health Sciences at the Keck School of Medicine of USC. The overarching goals of her research program are to understand how environmental exposures early in life contribute to the increased risk of disease later in life, as well as the role genetic and epigenetic mechanisms play in driving observed associations. Despite evidence from animal models supporting a developmental origins of adult disease hypothesis (DOHad), which proposes that adverse events during early life program an increased risk for numerous adult diseases, human studies of in utero or childhood environmental exposures have not been a primary focus until recently. Her work in evaluating prenatal air pollution and prenatal tobacco smoke exposures provides evidence that early life exposures are important risk factors for cardio-respiratory health in children and young adults.
@@ -59,7 +59,7 @@ The following people serve on the seven-member Executive Council of the ISEE Nor
 <img src = "Images/AishaDickersonUpdated.jpg" style = "width:20%"> 
 </p>
 
-[Aisha Dickerson](https://publichealth.jhu.edu/faculty/3898/aisha-s-dickerson){target="_blank"}, PhD, is Assistant Professor of Epidemiology at the Johns Hopkins Bloomberg School of Public Health. Her research evaluates the impact of environmental exposures on autism and dementia across the lifespan, with a focus on underserved communities.
+[Aisha Dickerson](https://publichealth.jhu.edu/faculty/3898/aisha-s-dickerson){target="_blank"}, PhD, is Assistant Professor of Epidemiology at the Johns Hopkins Bloomberg School of Public Health. Her research evaluates the impact of environmental exposures on neurodevelopmental and neurodegenerative disorders, with a focus on underserved communities.
 
 <br>
 
@@ -85,7 +85,7 @@ The following people serve on the seven-member Executive Council of the ISEE Nor
 <img src = "Images/ScottWeichenthal.jpg" style = "width:20%">
 </p>
 
-[Scott Weichenthal](https://scottweichenthal.weebly.com){target="_blank"}, PhD, is an Associate Professor in the Department of  Epidemiology and Biostatistics at McGill University in Montreal, Canada. His research program is dedicated to identifying and evaluating environmental risk factors for chronic illnesses such as cancer and cardiovascular disease. To support this objective, Dr. Weichenthal develops new approaches to population-based exposure assessment and examines how the urban built environment influences environmental exposures at both the individual and population-level. His past studies have examined the health effects of air pollution from biomass burning, traffic (e.g. ultrafine particles), as well as the oxidative potential of fine particulate air pollution (PM2.5). His current research also examines the use of deep learning models in estimating environmental exposures using images and audio data. 
+[Scott Weichenthal](https://scottweichenthal.weebly.com){target="_blank"}, PhD, is an Associate Professor in the Department of  Epidemiology and Biostatistics at McGill University in Montreal, Canada. His research program is dedicated to identifying and evaluating environmental risk factors for chronic illnesses such as cancer and cardiovascular disease. To support this objective, Dr. Weichenthal develops new approaches to population-based exposure assessment and examines how the urban built environment influences environmental exposures at both the individual and population-level. His past studies have examined the health effects of air pollution from biomass burning, traffic (e.g., ultrafine particles), as well as the oxidative potential of fine particulate air pollution (PM2.5). His current research also examines the use of deep learning models in estimating environmental exposures using images and audio data. 
 <br>
 
 ***
@@ -98,7 +98,7 @@ The following people serve on the seven-member Executive Council of the ISEE Nor
 <img src = "Images/KateWeinberger.jpg" style = "width:20%"> 
 </p>
 
-**Kate Weinberger**, PhD, Kate Weinberger is an environmental epidemiologist at ICF whose current work is focused on the evaluation and synthesis of epidemiologic evidence across a wide range of environmental exposures. Prior to joining ICF, Dr. Weinberger received a PhD in environmental health sciences from Columbia University, completed a postdoctoral fellowship at Brown University’s School of Public Health, and served as a faculty member at the University of British Columbia. 
+**Kate Weinberger**, PhD, is an environmental epidemiologist at ICF whose current work is focused on the evaluation and synthesis of epidemiologic evidence across a wide range of environmental exposures. Prior to joining ICF, Dr. Weinberger received a PhD in environmental health sciences from Columbia University, completed a postdoctoral fellowship at Brown University’s School of Public Health, and served as a faculty member at the University of British Columbia. 
 <br>
 
 ***

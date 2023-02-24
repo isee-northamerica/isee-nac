@@ -54,6 +54,17 @@ output:
 
 ***
 
+# George Thurston
+
+<p align = "center">
+<img src = "Images/George.png" style = "width:20%"> 
+</p>
+
+[George Thurston](https://med.nyu.edu/faculty/george-d-thurston){target="_blank"}, ScD, is a Professor of Medicine and Population Health at New York University Grossman School of Medicine. 
+<br>
+
+***
+
 # Paul Villeneuve
 
 <p align = "center">
