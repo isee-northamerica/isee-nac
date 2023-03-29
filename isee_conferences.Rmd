@@ -4,10 +4,16 @@ output: html_document
 ---
 
 <br>
+<p align = "center">
+  Join us in beautiful Corvallis, OR (06.19-21.2023) for ISEE NAC's first-ever meeting! Please visit our [conference website](https://iseenac2023.org){target="_blank"} to learn more, including details on our exciting upcoming programming and how to register!!! We hope to see you there!!
+</p>
 
-  Join us in beautiful Corvallis, OR (06.19-21.2023) for ISEE NAC's first-ever [meeting](https://iseenac2023.org/){target="_blank"}! 
+<br>
+<p align = "center">
+<img src = "Images/conference_ISEENAC2023_logo_preview.jpeg" style = "width:30%">
+</p>
+<br>
 
-  Abstract submission is now open; abstracts are due November 30<sup>th</sup>! Information about abstract submission can be found [here](https://iseenac2023.org/abstracts/){target="_blank"}.
 
 <!-- <br> -->
 
