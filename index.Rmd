@@ -1,5 +1,6 @@
 ---
 title: "ISEE North American Chapter (NAC)"
+output: html_document
 ---
 
 <br>
@@ -14,10 +15,11 @@ title: "ISEE North American Chapter (NAC)"
 <br>
 <p align = "center">
 **ISEE North America Chapter Conference Recap**
+***(click image)***
 </p>
 
 <center>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MD4puNM_XAw?si=O0PoV6pkL_7J7vqq" data-external="1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![](https://img.youtube.com/vi/MD4puNM_XAw/0.jpg)](https://www.youtube.com/watch?v=MD4puNM_XAw)
 </center>
 <br>
 
