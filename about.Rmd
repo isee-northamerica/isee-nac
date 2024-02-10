@@ -5,9 +5,9 @@ output: html_document
 
 <u>Executive Council:</u>
 <br>
-Carrie Breton, Co-Chair
+Jessie Buckley, Co-Chair
 <br>
-breton@usc.edu
+jessie.buckley@unc.edu
 <br>
 <br>
 Shohreh Farzan, Co-Chair
