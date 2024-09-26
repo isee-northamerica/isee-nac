@@ -13,8 +13,8 @@
 
 <title>LIAISONS to NAC</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -29,12 +29,12 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -44,6 +44,7 @@
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
     </style>
+
 
 
 
@@ -73,6 +74,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -130,11 +134,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -163,8 +171,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -172,16 +180,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -298,7 +299,7 @@ div.tocify {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -308,7 +309,7 @@ div.tocify {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     MEMBERS
      
     <span class="caret"></span>
@@ -375,22 +376,34 @@ div.tocify {
 
 
 <p><br></p>
-<div id="max-aung-snrn-liaison" class="section level1">
-<h1>Max Aung, SNRN Liaison</h1>
-<p align="center">
-<img src = "Images/MaxAung.jpeg" style = "width:20%">
-</p>
-<p>Max Aung, PhD, MPH, is an Associate Research Scientist on the Science &amp; Policy team at UCSF’s Program on Reproductive Health and the Environment. In his role at PRHE, Max focuses on advancing the field of systematic review as the foundation for evidence-based decision making through the development of an evidence to decision framework for environmental health that includes principles that incorporate health equity, environmental justice, benefits, harms, feasibility, cost-benefits and quality of the evidence to inform health policy. Max’s research portfolio also integrates cutting-edge data science and statistics tools to investigate the biological mechanisms linking the prenatal exposure to adverse reproductive health outcomes. Prior to joining PRHE, Max completed doctoral training in Environmental Epidemiology and postdoctoral training in Biostatistics and Precision Health Data Science at the University of Michigan. Max is an alumnus of the Robert Wood Johnson Foundation’s Health Policy Research Scholars Fellowship.</p>
+<div id="coming-soon-snrn-liaison" class="section level1">
+<h1>Coming Soon!, SNRN Liaison</h1>
+<!-- <p align = "center"> -->
+<!-- <img src = "Images/MaxAung.jpeg" style = "width:20%"> -->
+<!-- </p> -->
 <p><br></p>
 <hr />
 <p><br></p>
 </div>
-<div id="joel-kaufman-isee-global-executive-council-liaison" class="section level1">
-<h1>Joel Kaufman, ISEE Global Executive Council Liaison</h1>
-<p align="center">
-<img src = "Images/JoelK.jpeg" style = "width:20%">
-</p>
-<p><a href="https://deohs.washington.edu/faculty/joel-d-kaufman" target="_blank">Joel Kaufman</a>, MD, MPH, is a physician-epidemiologist, board-certified in internal medicine and occupational medicine. He has been a full-time faculty member at the University of Washington since 1997, currently holding appointments in the Departments of Environmental &amp; Occupational Health Sciences, and Medicine (General Internal Medicine), and Epidemiology. He also serves as the Director of the UW Center for Exposures, Diseases, Genomics and Environment at DEOHS. In 2019, Dr Kaufman was named editor-in-chief of Environmental Health Perspectives, a leading environmental health journal published by the National Institute of Environmental Health Sciences. Dr. Kaufman’s work integrates epidemiology, exposure sciences, toxicology and clinical medicine. His current research activities are primarily focused on environmental factors in cardiovascular and respiratory disease. He is the principal investigator of a major epidemiological prospective cohort study of air pollution and cardiovascular disease (The Multi-Ethnic Study of Atherosclerosis and Air Pollution, or “MESA Air”). He directs the UW Northlake Controlled Exposure Facility, a facility customized for experimental inhalation toxicology studies on health effects of combustion products, including diesel exhaust.</p>
+<div id="jaime-hart-isee-global-executive-council-liaison"
+class="section level1">
+<h1>Jaime Hart, ISEE Global Executive Council Liaison</h1>
+<!-- <p align = "center"> -->
+<!-- <img src = "Images/UPDATE.jpeg" style = "width:20%"> -->
+<!-- </p> -->
+<p><a href="https://www.hsph.harvard.edu/space-lab/people/jaime-hart/"
+target="_blank">Jaime Hart</a>, is an associate professor at the
+Channing Division of Network Medicine, Brigham and Women’s Hospital and
+Harvard Medical School and the Department of Environmental Health at the
+Harvard TH Chan School of Public Health. She is an environmental
+epidemiologist with a focus in incorporating high quality exposure
+measures of exposure into ongoing and forming prospective cohort
+studies. She is the Scientific Director of the Growing Up Today Study
+(GUTS), and PI of a grant in that cohort to examine the impacts of
+indoor and outdoor pollution and personal exposures to endocrine
+disrupting chemicals on semen quality, and is highly involved in
+expanding the focus of the Nurses’ Health Study 3 to include a
+substantial environmental component.</p>
 <p><br></p>
 </div>
 

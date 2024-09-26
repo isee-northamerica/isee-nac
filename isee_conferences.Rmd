@@ -5,7 +5,7 @@ output: html_document
 
 <br>
 <p align = "center">
-  Join us in beautiful Corvallis, OR (06.19-21.2023) for ISEE NAC's first-ever meeting! Please visit our [conference website](https://iseenac2023.org){target="_blank"} to learn more, including details on our exciting upcoming programming and how to register!!! We hope to see you there!!
+  Our first-ever ISEE NAC regional meeting was held in beautiful Corvallis, OR on June 19-21, 2023! Stay tuned to learn details of the second ISEE NAC regional meeting to be held in 2026. 
 </p>
 
 <br>
@@ -26,5 +26,7 @@ output: html_document
 ***
 
 Information regarding past and future ISEE Global Meetings can be found [here](https://www.iseepi.org/Public/Annual_Meeting/Future_Meetings/Public/Annual_Meetings/Future_Meetings.aspx?hkey=6ac6ca51-7884-42c5-a6a0-c3811b8602ff){target="_blank"}.
+
+In 2025, please join us in Atlanta, Georgia, United States, for the ISEE Global Meeting!
 
 </br>

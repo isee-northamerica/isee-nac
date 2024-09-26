@@ -13,8 +13,8 @@
 
 <title>WEBINARS</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -30,8 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -41,6 +41,7 @@
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
     </style>
+
 
 
 
@@ -70,6 +71,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -127,11 +131,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -160,8 +168,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -169,16 +177,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -222,7 +223,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -232,7 +233,7 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     MEMBERS
      
     <span class="caret"></span>
@@ -298,22 +299,55 @@ $(document).ready(function () {
 </div>
 
 
-<p>We offer webinars on topics ranging from policy to professional development.</p>
-<p>The <a href="https://www.youtube.com/channel/UCzW7ZAgwM-h0wWFEESbLlWA" target="_blank">ISEE Global Education Channel</a> contains many presentations and training videos.</p>
-<p>For the most up-to-date information on upcoming webinars (ISEE, ISEE NAC, CAPE, etc), as well as registration information, please visit ISEE’s <a href="https://www.iseepi.org/Public/Career_Development/Workshops_and_Training/Public/Career_Development/Workshops_and_Training.aspx?hkey=c8e3d8dc-163e-4c1b-a65d-e0bb2dccc4ea" target="_blank">Sponsored Events page</a>.</p>
+<p>We offer webinars on topics ranging from policy to professional
+development.</p>
+<p>The <a
+href="https://www.youtube.com/channel/UCzW7ZAgwM-h0wWFEESbLlWA"
+target="_blank">ISEE Global Education Channel</a> contains many
+presentations and training videos.</p>
+<p>For the most up-to-date information on upcoming webinars (ISEE, ISEE
+NAC, CAPE, etc), as well as registration information, please visit
+ISEE’s <a
+href="https://www.iseepi.org/Public/Career_Development/Workshops_and_Training/Public/Career_Development/Workshops_and_Training.aspx?hkey=c8e3d8dc-163e-4c1b-a65d-e0bb2dccc4ea"
+target="_blank">Sponsored Events page</a>.</p>
 <p><br></p>
 <p>Check out some of our past webinars below!</p>
 <p></br></p>
-<p><strong>Carol Shreffler, Abee Boyles, and Joan Casey - NIEHS K99/R00 Webinar</strong> <iframe width="560" height="315" src="https://www.youtube.com/embed/vFRXD6eK_9o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
-<p><strong>Rachel Morello-Frosch - The Haves, have-nots, and the health of everyone: What’s the connection and why it matters for sustainability and environmental justice</strong></p>
+<p><strong>Melissa Smarr, Mary Schubauer-Berigan, Katie Taylor -
+Non-Academic Career Paths for Environmental Health Researchers - Part
+2</strong></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hZZKQpcJ2lk?si=iG1YIEyVFKnhhmBz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<p></br></p>
+<p><strong>Suril Mehta, Erin Haynes, Keeve Nachman - One Year After the
+East Palestine Train Derailment: A Panel Discussion</strong></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/coAI9JfpWJY?si=XAMctV5c4oQ_mVOZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<p></br></p>
+<p><strong>Dania Valvi - PFAS Exposure and Type 2 Diabetes Risk Across
+the Life-course: The Human Metabolome</strong></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/is5uO0uXYO8?si=iUf8PhK88xTXG0Ml" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+<p></br></p>
+<p><strong>Carol Shreffler, Abee Boyles, and Joan Casey - NIEHS K99/R00
+Webinar</strong></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vFRXD6eK_9o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+</iframe>
+<p></br></p>
+<p><strong>Rachel Morello-Frosch - The Haves, have-nots, and the health
+of everyone: What’s the connection and why it matters for sustainability
+and environmental justice</strong></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kiuETY-ap2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
-<p><strong>Francine Laden and George Thurston - All Things NIH Study Section</strong></p>
+<p></br></p>
+<p><strong>Francine Laden and George Thurston - All Things NIH Study
+Section</strong></p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Tn6cL7I7SpI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 <p></br></p>
-<p><strong>Joel Kaufman - A Conversation with EHP’s Editor-in-Chief</strong></p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CxTrGCIzMLU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<p><strong>Joel Kaufman - A Conversation with EHP’s
+Editor-in-Chief</strong></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CxTrGCIzMLU?si=Ix9YOFDl0PJho0Bu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 </iframe>
 <p></br></p>
 <p><strong>Andrea Baccarelli - Time Management</strong></p>
@@ -332,7 +366,10 @@ $(document).ready(function () {
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xpExhVUa00U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 <p></br></p>
-<p>If you have ideas for future webinars, <a href="isee.northamerica@gmail.com">e-mail</a> or tweet us <a href="https://twitter.com/isee_nac?lang=en" target="_blank">@ISEE_NAC</a>.</p>
+<p>If you have ideas for future webinars, <a
+href="isee.northamerica@gmail.com">e-mail</a> or tweet us <a
+href="https://twitter.com/isee_nac?lang=en"
+target="_blank">@ISEE_NAC</a>.</p>
 <p></br></p>
 
 

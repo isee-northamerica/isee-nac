@@ -13,8 +13,8 @@
 
 <title>ISEE North American Chapter (NAC)</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -30,8 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -41,6 +41,7 @@
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
     </style>
+
 
 
 
@@ -70,6 +71,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -127,11 +131,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -160,8 +168,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -169,16 +177,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -222,7 +223,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -232,7 +233,7 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     MEMBERS
      
     <span class="caret"></span>
@@ -304,60 +305,95 @@ $(document).ready(function () {
 </p>
 <p><br></p>
 <hr />
-<p><font size="3" color="gray">The North America Chapter (NAC) was established by the ISEE Council in January, 2019. Its mission is to promote and strengthen scientific research in environmental epidemiology, with a focus on the countries within this region, considering the wide range of issues that are both specific to them, and similar to those faced by ISEE worldwide. As this is a critical time in terms of environmental policies for North America, the role of this chapter will be to communicate with, and coordinate and concentrate, the efforts and actions of members.The NAC consists of the United States, Canada, Greenland, and Bermuda.</p>
+<p><font size="3" color="gray">The North America Chapter (NAC) was
+established by the ISEE Council in January, 2019. Its mission is to
+promote and strengthen scientific research in environmental
+epidemiology, with a focus on the countries within this region,
+considering the wide range of issues that are both specific to them, and
+similar to those faced by ISEE worldwide. As this is a critical time in
+terms of environmental policies for North America, the role of this
+chapter will be to communicate with, and coordinate and concentrate, the
+efforts and actions of members.The NAC consists of the United States,
+Canada, Greenland, and Bermuda.</p>
 <br>
 <p align="center">
-<strong>ISEE North America Chapter Conference Recap</strong> <strong><em>(click image)</em></strong>
+<strong>ISEE North America Chapter Conference Recap</strong>
+<strong><em>(click image)</em></strong>
 </p>
 <center>
-<a href="https://www.youtube.com/watch?v=MD4puNM_XAw"><img src="https://img.youtube.com/vi/MD4puNM_XAw/0.jpg" /></a>
+<a href="https://www.youtube.com/watch?v=MD4puNM_XAw"><img
+src="https://img.youtube.com/vi/MD4puNM_XAw/0.jpg" /></a>
 </center>
 <p><br></p>
 <p>The NAC will support the mission of the ISEE by:</p>
 <ul>
-<li>Promoting scientific research on environmental health, especially environmental epidemiology;</li>
-<li>Encouraging the collaboration of researchers between institutions within the region;</li>
-<li>Engaging in education, training, and career development in environmental epidemiology;</li>
-<li>Bridging the gap between the discoveries of research and translation into public health policy.</li>
+<li>Promoting scientific research on environmental health, especially
+environmental epidemiology;</li>
+<li>Encouraging the collaboration of researchers between institutions
+within the region;</li>
+<li>Engaging in education, training, and career development in
+environmental epidemiology;</li>
+<li>Bridging the gap between the discoveries of research and translation
+into public health policy.</li>
 </ul>
-<p>Emphasis will be on civic engagement regarding policy in Canada and the United States.</font></p>
+<p>Emphasis will be on civic engagement regarding policy in Canada and
+the United States.</font></p>
 <p><br></p>
 <hr />
 <div id="bylaws" class="section level4">
 <h4>BYLAWS</h4>
-<p>ISEE NAC Bylaws can be accessed <a href="Downloads/bylaws.pdf">here</a>.</p>
+<p>ISEE NAC Bylaws can be accessed <a
+href="Downloads/bylaws.pdf">here</a>.</p>
 <p><br></p>
 </div>
 <div id="action-plan" class="section level4">
 <h4>ACTION PLAN</h4>
-<p>ISEE NAC Action Plan can be accessed <a href="Downloads/ActionPlan_ISEE_NorthAmerica.pdf">here</a>.</p>
+<p>ISEE NAC Action Plan can be accessed <a
+href="Downloads/ActionPlan_ISEE_NorthAmerica.pdf">here</a>.</p>
 <hr />
 </div>
 <div id="other-isee-related-links" class="section level4">
 <h4>Other ISEE-related links</h4>
-<p>Follow us on Twitter <a href="https://twitter.com/isee_nac?lang=en" target="_blank">@ISEE_NAC</a>!</p>
+<p>Follow us on Twitter <a href="https://twitter.com/isee_nac?lang=en"
+target="_blank">@ISEE_NAC</a>!</p>
 <p><br></p>
 <div id="isee-global" class="section level5">
 <h5>ISEE Global</h5>
-<p>The ISEE main website can be found <a href="https://www.iseepi.org/" target="_blank">here</a>. <br> Follow the ISEE on Twitter <a href="https://twitter.com/isee_global/" target="_blank">@ISEE_global</a>.</p>
+<p>The ISEE main website can be found <a href="https://www.iseepi.org/"
+target="_blank">here</a>. <br> Follow the ISEE on Twitter <a
+href="https://twitter.com/isee_global/"
+target="_blank">@ISEE_global</a>.</p>
 <p><br></p>
 </div>
 <div id="isee-chapters" class="section level5">
 <h5>ISEE Chapters</h5>
-<p>More information regarding all ISEE Chapters can be found <a href="https://www.iseepi.org/Public/Chapters/Public/Regional_Chapters/Chapter_Information.aspx?hkey=f7344997-0fee-4ac4-8241-a97281da8dcc" target="_blank">here</a>. <br> The ISEE Asia Chapter website can be found <a href="http://isee-ac.hct.tw/" target="_blank">here</a>. <br> The ISEE Europe Chapter website can be found <a href="http://www.isee-europe.com/" target="_blank">here</a>.</p>
+<p>More information regarding all ISEE Chapters can be found <a
+href="https://www.iseepi.org/Public/Chapters/Public/Regional_Chapters/Chapter_Information.aspx?hkey=f7344997-0fee-4ac4-8241-a97281da8dcc"
+target="_blank">here</a>. <br> The ISEE Asia Chapter website can be
+found <a href="http://isee-ac.hct.tw/" target="_blank">here</a>. <br>
+The ISEE Europe Chapter website can be found <a
+href="http://www.isee-europe.com/" target="_blank">here</a>.</p>
 <p><br></p>
 </div>
-<div id="student-and-new-researchers-network-snrn" class="section level5">
+<div id="student-and-new-researchers-network-snrn"
+class="section level5">
 <h5>Student and New Researchers Network (SNRN)</h5>
-<p>Information regarding the SNRN can be found <a href="https://www.iseepi.org/Public/About_Us/Committees/SNRN%20Network/Public/About_Us/ISEE_Committees/Students_and_New_Researchers_Network.aspx?hkey=be7ae2aa-a2e2-42b2-9d7b-be13e6208ece" target="_blank">here</a>. <br> Follow the SNRN on Twitter <a href="https://twitter.com/iseesnrn?lang=en" target="_blank">@ISEESNRN</a>.</p>
+<p>Information regarding the SNRN can be found <a
+href="https://www.iseepi.org/Public/About_Us/Committees/SNRN%20Network/Public/About_Us/ISEE_Committees/Students_and_New_Researchers_Network.aspx?hkey=be7ae2aa-a2e2-42b2-9d7b-be13e6208ece"
+target="_blank">here</a>. <br> Follow the SNRN on Twitter <a
+href="https://twitter.com/iseesnrn?lang=en"
+target="_blank">@ISEESNRN</a>.</p>
 <p><br></p>
 </div>
 <div id="isee-job-postings" class="section level5">
 <h5>ISEE Job Postings</h5>
-<p>Information regarding ISEE job postings can be found <a href="https://www.iseepi.org/Public/Public/Career_Development/View_Job_Postings.aspx" target="_blank">here</a>.</p>
+<p>Information regarding ISEE job postings can be found <a
+href="https://www.iseepi.org/Public/Public/Career_Development/View_Job_Postings.aspx"
+target="_blank">here</a>.</p>
 <p><br> <br> <br> <br> <br> <br> <br></p>
 <hr />
-<p><strong>Copyright © 2019 ISEE NAC.</strong> Website designed by Ahlam Abuawad. <em>Website last updated: 02.25.2024</em></p>
+<p><strong>Copyright © 2019 ISEE NAC.</strong> Website designed by Ahlam
+Abuawad. <em>Website last updated: 09.25.2024</em></p>
 </div>
 </div>
 

@@ -13,8 +13,8 @@
 
 <title>ISEE CONFERENCES</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -30,8 +30,8 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -41,6 +41,7 @@
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
     </style>
+
 
 
 
@@ -70,6 +71,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -127,11 +131,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -160,8 +168,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -169,16 +177,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -222,7 +223,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -232,7 +233,7 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     MEMBERS
      
     <span class="caret"></span>
@@ -300,7 +301,9 @@ $(document).ready(function () {
 
 <br>
 <p align="center">
-Join us in beautiful Corvallis, OR (06.19-21.2023) for ISEE NAC’s first-ever meeting! Please visit our <a href="https://iseenac2023.org" target="_blank">conference website</a> to learn more, including details on our exciting upcoming programming and how to register!!! We hope to see you there!!
+Our first-ever ISEE NAC regional meeting was held in beautiful
+Corvallis, OR on June 19-21, 2023! Stay tuned to learn details of the
+second ISEE NAC regional meeting to be held in 2026.
 </p>
 <br>
 <p align="center">
@@ -312,7 +315,12 @@ Join us in beautiful Corvallis, OR (06.19-21.2023) for ISEE NAC’s first-ever m
 <!-- As the capital city of the United States, the Washington, DC, area is home to a wide range of environmental epidemiologists working in a rich array of settings - academic, governmental, international multilateral organizations, consulting firms and think tanks, nonprofits, and private sector institutions. Washington, DC, is uniquely situated as a backdrop for this purpose and brings a rich diversity of scientists and policymakers who are working in environmental health at the local, state, federal and international level. The city is known as one of the most walkable and leads the country in several environmental and sustainability initiatives with an emphasis on smart cities, climate resiliency, and urban agriculture. It is an important multiethnic and multicultural environment, where people from all nationalities converge and interact. From iconic monuments to vibrant neighborhoods filled with character and charm, Washington, DC, offers unique cultural diversity, pairing its international influence with a distinct and local identity. -->
 <!-- </br> -->
 <hr />
-<p>Information regarding past and future ISEE Global Meetings can be found <a href="https://www.iseepi.org/Public/Annual_Meeting/Future_Meetings/Public/Annual_Meetings/Future_Meetings.aspx?hkey=6ac6ca51-7884-42c5-a6a0-c3811b8602ff" target="_blank">here</a>.</p>
+<p>Information regarding past and future ISEE Global Meetings can be
+found <a
+href="https://www.iseepi.org/Public/Annual_Meeting/Future_Meetings/Public/Annual_Meetings/Future_Meetings.aspx?hkey=6ac6ca51-7884-42c5-a6a0-c3811b8602ff"
+target="_blank">here</a>.</p>
+<p>In 2025, please join us in Atlanta, Georgia, United States, for the
+ISEE Global Meeting!</p>
 <p></br></p>
 
 
